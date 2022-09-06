@@ -2,24 +2,26 @@
 
 `Análise e Desenvolvimento de Sistemas`
 
-`Projeto `
+`PROJETO: Desenvolvimento de uma Aplicação Interativa`
 
-`2 semestre`
+`2 SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+<img src="assets/SpacenetLogo.png" width="50%" alt="Logomarca">
+
+Uma Intranet que permite um acesso restrito e promove a integração dos processos de uma empresa, facilitando o dia-a-dia dos seus colaboradores.
 
 ## Integrantes
 
-Franciele Félix
-Gustavo Augusto
-Guilherme Batista
-Guilherme Bonfim
-Matheus Fernandes 
-Rafael Jordão
+*Franciele Félix
+*Gustavo Augusto
+*Guilherme Batista
+*Guilherme Bonfim
+*Matheus Fernandes 
+*Rafael Jordão
 
 ## Orientador
 
-* Nome completo do professor 1
+* Bernardo Jeunon De Alencar
 
 ## Instruções de utilização
 
