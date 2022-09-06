@@ -6,8 +6,6 @@
 
 `2 SEMESTRE`
 
-<img src="assets/SpacenetLogo.png" width="50%" alt="Logomarca">
-
 Uma Intranet que permite um acesso restrito e promove a integração dos processos de uma empresa, facilitando o dia-a-dia dos seus colaboradores.
 
 ## Integrantes
