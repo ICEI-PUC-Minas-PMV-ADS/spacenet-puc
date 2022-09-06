@@ -10,12 +10,12 @@ Uma Intranet que permite um acesso restrito e promove a integração dos process
 
 ## Integrantes
 
-*Franciele Félix
-*Gustavo Augusto
-*Guilherme Batista
-*Guilherme Bonfim
-*Matheus Fernandes 
-*Rafael Jordão
+* Franciele Félix
+* Gustavo Augusto
+* Guilherme Batista
+* Guilherme Bonfim
+* Matheus Fernandes 
+* Rafael Jordão
 
 ## Orientador
 
