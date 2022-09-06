@@ -1,4 +1,4 @@
-# Spacenet - INTRANTER
+# Spacenet - INTRANET
 
 `Análise e Desenvolvimento de Sistemas`
 
