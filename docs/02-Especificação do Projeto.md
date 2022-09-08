@@ -2,9 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Um trabalho de pesquisa e diálogo entre os membros do grupo foi feito semanalmente para entender as principais dores que os colaboradores de diversas empresas sofrem no seu dia a dia. Dessa forma, com os dados apresentados, pudemos identificar os padrões existentes em diferentes segmentos do mercado corporativo para poder solucioná-los de modo mais assertivo.
 
 ## Personas
 
@@ -48,15 +46,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site irá oferecer uma aba descrita “Institucional”, nela conterá sub abas categorizadas com informações com informações gerais | ALTA | 
+|RF-002| O site precisa ter funcionalidade para autenticação de usuário   | ALTA |
+|RF-003| Na página principal serão exibidos os aniversariantes daquele determinado mês ou semana | ALTA |
+|RF-004| Haverá um portal de notícias relacionadas a empresa e aos colaboradores, atualizadas esporadicamente | ALTA |
+|RF-005| O site deve oferecer funcionalidade para abertura de chamadas de TI | ALTA |
+|RF-006| Um quadro de avisos será exibido a cada funcionário, contendo informações sobre seu setor e da empresa | MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O site deve ser compatível com os principais navegadores (Microsoft Edge, Firefox, Google Chrome) | MÉDIA | 
+|RNF-002| O site deverá ser responsivo para visualização em dispositivos móveis |  BAIXA |
+|RF-003| O site deverá ser responsivo para visualização em dispositivos móveis | ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -79,7 +82,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
+|01|O projeto deve estar finalizado e não extrapolar a data de 11/12/2022 |
 |02| Não pode ser desenvolvido um módulo de backend        |
 
 
