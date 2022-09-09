@@ -7,7 +7,7 @@ Um trabalho de pesquisa e diálogo entre os membros do grupo foi feito semanalme
 ## Personas
 
 <div align="center">
-<img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-spacenet/docs/img/Persona_01.png
+<img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-spacenet/blob/1fba26133601ad95e971967e0541ba6e6dc96574/docs/img/Persona_01.png
  width="70%"/>
  </div>
  
