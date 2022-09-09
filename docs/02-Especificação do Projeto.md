@@ -95,7 +95,7 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 ## Diagrama de Casos de Uso
 
 <div align="center">
-<img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-spacenet/blob/94ceae953134908c5227840c6c6aa02c17c0c9ea/docs/img/Caso%20de%20uso.jpeg width="50%"/>
+<img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-spacenet/blob/94ceae953134908c5227840c6c6aa02c17c0c9ea/docs/img/Caso%20de%20uso.jpeg width="70%"/>
  </div>
 
 > **Links Úteis**:
