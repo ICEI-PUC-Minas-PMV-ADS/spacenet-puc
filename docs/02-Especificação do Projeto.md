@@ -6,7 +6,7 @@ Um trabalho de pesquisa e diálogo entre os membros do grupo foi feito semanalme
 
 ## Personas
 
-Persona 01 <br>
+Persona 01
 
 
 <div align="center">
@@ -14,11 +14,27 @@ Persona 01 <br>
  width="70%"/>
  </div>
  
- 
+ Persona 02
  
  <div align="center">
 <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-spacenet/blob/38861686d528e003b2caa4e85f5995fb14c05f56/docs/img/Persona_02.png
  width="70%"/>
+ </div>
+
+
+Persona 03
+ 
+ <div align="center">
+<img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-spacenet/blob/abebd5c2f6ed4d4844932417dbdc93545709dd34/docs/img/Persona_03.png width="70%"/>
+ </div>
+
+
+
+Persona 03
+ 
+ <div align="center">
+<img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-spacenet/blob/aa3617b1b8c996b4279c401419bfdecb550930c5/docs/img/Persona_04.png
+     width="70%"/>
  </div>
 
 
