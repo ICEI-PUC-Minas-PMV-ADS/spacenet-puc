@@ -47,8 +47,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Funcionário  | Ler notícias relacionadas a empresa          | Ficar informado das principais atualizações |
+|Suporte    | Visualizar as chamadas de TI pendentes e alterar o status da mesma            | Realizar o suporte e sinalizar o andamento do chamado  |
+|Administrador | Adicionar conteúdo ao painel de notícias | Informar os funcionários da empresa |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -79,9 +80,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O site deve ser compatível com os principais navegadores (Microsoft Edge, Firefox, Google Chrome) | MÉDIA | 
+|RNF-001| O site deverá ser compatível com os principais navegadores (Microsoft Edge, Firefox, Google Chrome) | MÉDIA | 
 |RNF-002| O site deverá ser responsivo para visualização em dispositivos móveis |  BAIXA |
-|RF-003| O site deverá ser responsivo para visualização em dispositivos móveis | ALTA |
+|RNF-003| O Front-End do sistema deverá ser escrito utilizando as linguagens HTML5, CSS3, JavaScript e frameworks como Bootstrap. | ALTA |
+|RNF-004| O Back-End do sistema deverá ser desenvolvido com a linguagem C#, utilizando um banco de dados SQL. | ALTA |
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -105,7 +108,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01|O projeto deve estar finalizado e não extrapolar a data de 11/12/2022 |
-|02| Não pode ser desenvolvido um módulo de backend        |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
