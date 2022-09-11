@@ -2,7 +2,6 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Um trabalho de pesquisa e diálogo entre os membros do grupo foi feito semanalmente para entender as principais dores que os colaboradores de diversas empresas sofrem no seu dia a dia. Dessa forma, com os dados apresentados, pudemos identificar os padrões existentes em diferentes segmentos do mercado corporativo para poder solucioná-los de modo mais assertivo.
 
 ## Personas
 
