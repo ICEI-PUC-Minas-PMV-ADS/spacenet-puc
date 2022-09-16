@@ -1,0 +1,43 @@
+.container {
+    padding: 3rem;
+    width: 100%;
+    max-width: 875px;
+}
+
+.title {
+    color: var(--primary-blue);
+    margin-bottom: 2rem;
+}
+
+.carousel {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    border-radius: 0.5rem;
+
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carouselButtos {
+    width: 100%;
+    max-width: 100px;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.button:hover {
+    opacity: 1
+}

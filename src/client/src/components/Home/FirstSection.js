@@ -5,11 +5,11 @@ import ButtonWhite from '../Buttons/ButtonWhite'
 const FirstSection = () => {
     return (
         <section className={styles.container}>
-            <div className={styles.text}>
+            <div className={`animeLeftSlow ${styles.text}`}>
                 <h1 className={styles.title}>Para deixar o dia a dia mais simples.</h1>
-                <p>Conheça a Spacenet.</p>
+                <p className={styles.paragraph}>Conheça a Spacenet.</p>
             </div>
-            <div>
+            <div className='animeLeftSuperSlow'>
                 <ButtonWhite buttonText="VER MAIS" />
             </div>
         </section>

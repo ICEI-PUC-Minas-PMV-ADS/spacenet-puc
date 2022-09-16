@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    max-width: 300px;
+    padding: 0rem 1rem 1rem 0rem;
+}
+
+.text {
+    padding: 0.5rem;
+}
+
+.title {
+    color: var(--primary-blue);
+    margin-bottom: 0.5rem;
+}
+
+.paragraph {
+    margin-bottom: 0.5rem;
+}
+
+.image {
+    width: 100%;
+    max-width: 245px;
+    border-radius: 0.5rem;
+    min-width: 245px;
+}
