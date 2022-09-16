@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    background-color: var(--primary-blue);
+    align-items: center;
+    justify-content: space-around;
+    padding: 6rem;
+}
+
+.text {
+    color: var(--off-white);
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+}
