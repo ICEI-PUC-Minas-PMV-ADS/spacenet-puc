@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: #eee;
+    align-items: center;
+    box-shadow: 2px 0px 5px rgb(175, 175, 175);
+}
+
+.nav {
+    display: flex;
+}
+
+.ul {
+    display: flex;
+    gap: 5rem;
+}
