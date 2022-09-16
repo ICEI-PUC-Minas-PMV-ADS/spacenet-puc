@@ -4,6 +4,12 @@
   font-family: Montserrat;
 }
 
+:root {
+  --primary-blue: #00ADB5;
+  --off-white: #eee;
+  --black: rgb(19, 19, 19);
+}
+
 a {
   text-decoration: none;
 }

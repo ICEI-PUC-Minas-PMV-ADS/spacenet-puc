@@ -1,0 +1,19 @@
+.form {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+}
+
+.h1 {
+    padding-bottom: 1rem;
+    color: var(--primary-blue);
+}
+
+.input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    border: none;
+    background-color: #eee;
+    border-radius: 0.4rem;
+}
