@@ -19,13 +19,32 @@ li {
   list-style: none;
 }
 
+
+
+/* --------------- Animations ----------------- */
+
+
+
 .animeLeftSlow {
   opacity: 0;
   transform: translateX(-20px);
-  animation: animeLeftSlow 1s forwards;
+  animation: animeLeftSlow .5s forwards;
 }
 
 @keyframes animeLeftSlow {
+  to {
+      opacity: 1;
+      transform: initial;
+  }
+
+}
+.animeLeftSuperSlow {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: animeLeftSuperSlow 1.5s forwards;
+}
+
+@keyframes animeLeftSuperSlow {
   to {
       opacity: 1;
       transform: initial;
