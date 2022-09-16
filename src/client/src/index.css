@@ -2,6 +2,7 @@
   padding: 0%;
   margin: 0%;
   font-family: Montserrat;
+  box-sizing: border-box;
 }
 
 :root {
@@ -16,4 +17,18 @@ a {
 
 li {
   list-style: none;
+}
+
+.animeLeftSlow {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: animeLeftSlow 1s forwards;
+}
+
+@keyframes animeLeftSlow {
+  to {
+      opacity: 1;
+      transform: initial;
+  }
+
 }

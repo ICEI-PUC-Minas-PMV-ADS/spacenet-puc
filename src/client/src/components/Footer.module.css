@@ -1,0 +1,11 @@
+.logo {
+    width: 100%;
+    max-width: 150px;
+}
+
+.footer {
+    text-align: center;
+    padding: 3rem;
+    background-color: #eee;
+    box-shadow: 2px 0px 5px rgb(175, 175, 175);
+}

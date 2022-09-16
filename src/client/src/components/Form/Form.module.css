@@ -1,7 +1,7 @@
-.form {
+.container {
+    padding: 6rem 2rem 2rem 3rem;
     width: 100%;
-    max-width: 400px;
-    padding: 2rem;
+    max-width: 500px;
 }
 
 .h1 {
@@ -9,11 +9,29 @@
     color: var(--primary-blue);
 }
 
+.forgot {
+    font-weight: 600;
+    text-decoration: underline;
+    color: var(--primary-blue);
+    
+}
+
+.forgotContainer {
+    padding-top: 2rem;
+}
+
 .input {
     width: 100%;
     margin-bottom: 1rem;
-    padding: 0.7rem;
+    padding: 1rem;
     border: none;
     background-color: #eee;
     border-radius: 0.4rem;
 }
+
+@media (max-width:1000px) {
+    .container {
+        padding-top: 3rem;
+    }
+}
+

@@ -8,7 +8,7 @@ const Header = () => {
             <div>
                 <img src={Logo} />
             </div>
-            <nav >
+            {/* <nav >
                 <ul className={styles.ul}>
                     <a href='/'><li>Home</li></a>
                     <a href='/'><li>Notícias</li></a>
@@ -16,7 +16,7 @@ const Header = () => {
                     <a href='/'><li>Ajuda</li></a>
                     <a href='/'><li>Sair</li></a>
                 </ul>
-            </nav>
+            </nav> */}
         </header>
     )
 }
