@@ -8,4 +8,7 @@
     padding: 3rem;
     background-color: #eee;
     box-shadow: 2px 0px 5px rgb(175, 175, 175);
+    bottom: 0%;
+    position: relative;
+  
 }

@@ -1,0 +1,49 @@
+.problems {
+    padding: 5rem;
+    background-color: var(--primary-blue);
+}
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.text {
+    color: white;
+}
+
+.text h1, p {
+    margin-bottom: 1rem;
+}
+
+.text h1 {
+    font-size: 1.5rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+.img {
+    width: 100%;
+    max-width: 300px;
+}
+
+
+@media (max-width: 880px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text h1 {
+        max-width: 400px;
+    }
+
+    .text {
+        padding-top: 3rem;
+    }
+}

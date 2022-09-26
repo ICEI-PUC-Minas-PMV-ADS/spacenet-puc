@@ -5,17 +5,19 @@
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    padding: 3rem;
+    padding: 5rem 0rem 5rem 0rem;
 }
 
 
 .text {
     width: 100%;
     max-width: 450px;
+    padding: 1rem;
 }
 
 .text h1 {
     color: var(--primary-blue);
+    font-size: 1.5rem;
 }
 
 .text h1, p {
@@ -24,7 +26,7 @@
 
 .img {
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
 }
 
 

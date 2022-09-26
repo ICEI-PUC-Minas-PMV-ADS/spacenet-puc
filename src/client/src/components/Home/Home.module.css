@@ -1,6 +1,9 @@
 .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   max-width: 1600px;
+   margin: 0 auto;
 }
 
 @media (max-width:1300px) {
