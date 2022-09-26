@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.a10215f2.css",
-    "main.js": "/static/js/main.d34efe46.js",
-    "static/media/sectors.png": "/static/media/sectors.aca4d843c9fa59429c98.png",
-    "static/media/logo.svg": "/static/media/logo.be64544122f4708a35684373739558a1.svg",
-    "index.html": "/index.html",
-    "main.a10215f2.css.map": "/static/css/main.a10215f2.css.map",
-    "main.d34efe46.js.map": "/static/js/main.d34efe46.js.map"
+    "main.css": "/pmv-ads-2022-2-e2-proj-int-t5-spacenet/static/css/main.a10215f2.css",
+    "main.js": "/pmv-ads-2022-2-e2-proj-int-t5-spacenet/static/js/main.66ce7b97.js",
+    "static/media/sectors.png": "/pmv-ads-2022-2-e2-proj-int-t5-spacenet/static/media/sectors.aca4d843c9fa59429c98.png",
+    "static/media/logo.svg": "/pmv-ads-2022-2-e2-proj-int-t5-spacenet/static/media/logo.be64544122f4708a35684373739558a1.svg",
+    "index.html": "/pmv-ads-2022-2-e2-proj-int-t5-spacenet/index.html",
+    "main.a10215f2.css.map": "/pmv-ads-2022-2-e2-proj-int-t5-spacenet/static/css/main.a10215f2.css.map",
+    "main.66ce7b97.js.map": "/pmv-ads-2022-2-e2-proj-int-t5-spacenet/static/js/main.66ce7b97.js.map"
   },
   "entrypoints": [
     "static/css/main.a10215f2.css",
-    "static/js/main.d34efe46.js"
+    "static/js/main.66ce7b97.js"
   ]
 }
