@@ -1,7 +1,7 @@
 .container {
     padding: 3rem;
     width: 100%;
-    max-width: 875px;
+    max-width: 930px;
 }
 
 .title {
@@ -41,3 +41,17 @@
 .button:hover {
     opacity: 1
 }
+
+@media (max-width:1300px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 2rem;
+    }
+}
+
+

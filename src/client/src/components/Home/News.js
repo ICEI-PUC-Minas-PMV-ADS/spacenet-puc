@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './NewsSection.module.css'
+import styles from './News.module.css'
 import SetaCarrosselEsquerda from '../../assets/seta_carrossel_esquerda.png'
 import SetaCarrosselDireita from '../../assets/seta_carrossel_direita.png'
 import Card from '../Card/Card'
@@ -36,6 +36,13 @@ const news = [
   {
     id: '5',
     title: 'Notícia 5',
+    src: 'https://images.unsplash.com/photo-1546422904-90eab23c3d7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80',
+    alt: 'Thumbail da notícia',
+    paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis, tellu....'
+  },
+  {
+    id: '6',
+    title: 'Notícia 6',
     src: 'https://images.unsplash.com/photo-1546422904-90eab23c3d7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80',
     alt: 'Thumbail da notícia',
     paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis, tellu....'

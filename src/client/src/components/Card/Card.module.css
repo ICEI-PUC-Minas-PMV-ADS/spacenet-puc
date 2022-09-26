@@ -1,7 +1,7 @@
 .container {
     width: 100%;
     max-width: 300px;
-    padding: 0rem 1rem 1rem 0rem;
+    padding: 0rem 3rem 1rem 0rem;
 }
 
 .text {
@@ -15,6 +15,7 @@
 
 .paragraph {
     margin-bottom: 0.5rem;
+
 }
 
 .image {
@@ -22,4 +23,9 @@
     max-width: 245px;
     border-radius: 0.5rem;
     min-width: 245px;
+}
+
+
+@media (max-width: 350px) {
+
 }

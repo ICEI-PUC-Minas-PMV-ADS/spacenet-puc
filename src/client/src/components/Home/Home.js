@@ -1,12 +1,21 @@
 import React from 'react'
+import styles from './Home.module.css'
 import FirstSection from './FirstSection'
-import NewsSection from './NewsSection'
+import News from './News'
+import Birthdays from './Birthdays'
+import CompanySectors from './CompanySectors'
 
 const Home = () => {
     return (
         <>
             <FirstSection />
-            <NewsSection />
+            <section >
+               <div className={styles.grid}>
+                <News />
+                <Birthdays />
+               </div>
+                <CompanySectors />
+            </section>
         </>
     )
 }

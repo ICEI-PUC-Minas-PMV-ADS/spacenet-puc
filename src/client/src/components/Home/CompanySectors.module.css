@@ -1,0 +1,46 @@
+.sectors {  
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+
+.text {
+    width: 100%;
+    max-width: 450px;
+}
+
+.text h1 {
+    color: var(--primary-blue);
+}
+
+.text h1, p {
+    margin-bottom: 1rem;
+}
+
+.img {
+    width: 100%;
+    max-width: 300px;
+}
+
+
+@media (max-width:425px) {
+    .sectors {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .a {
+        order: 1;
+    }
+
+    .text {
+        order: 2;
+        padding-top: 3rem;
+    }
+}
