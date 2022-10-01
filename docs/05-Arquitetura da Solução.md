@@ -1,17 +1,20 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
+Essa unidade contém informações sobre a arquitetura da solução, isto é, como o software será estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+O primeiro ítem é o diagrama de classes, nele são exibidas as classes que serão criadas e como será o relacionamento entre elas. Seguito do modelo de entidades de relacionamento, projeto da base de dados, e por fim informações sobre as tecnologias utilizadas e hospedagem da solução.
 
 ## Diagrama de Classes
+O diagrama de classes contém informações sobre as classes que serão criadas para construção do sistema.
+Cada caixa de informação que o contém informa o nome da classe, seus atributos e seus métodos. Por padrão, os atributos serão declarados como privados e os métodos como publicos. Essa informação é percebida pelos sinais que precedem os atributos e métodos, respectivamente - e +.
+O relacionamento entre as classes também é indicado:
+* Administradores, desenvolvedores, funcionários de suporte e de recursos humanos são tipos de Funcionários - herança;
+* Cada um deles, com excessão dos funcionários do suporte podem abrir vários chamados de TI, mas cada chamado de TI é associado a um funcionário específico - associação;
+* Um aniversário por sua vez é parte do funcionário, e não existe sem o funcionário. No entanto, uma mesma data pode estar associada a mais de um indivíduo, ao passo que cada indivíduo possui apenas uma data de aniversário.
+Demais informações como estas podem ser percebidas na imagem abaixo:
 
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
+<img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-spacenet/blob/6cc2b80c539528ffac015c046896de74db3e4e11/docs/img/Diagrama%20de%20classes.png/>
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
-
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
 
 ## Modelo ER (Projeto Conceitual)
 
