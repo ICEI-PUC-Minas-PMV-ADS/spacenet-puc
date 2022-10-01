@@ -11,6 +11,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 No diagrama abaixo podemos conferir o fluxo que o usuário fará ao navegar na Intranet. Cada etapa abaixo será detalhada na próxima sessão por meio de um Wireframe. 
 
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-spacenet/blob/c7715cdc5d6812d92e3108b7116ab171544bbf56/docs/img/Fluxograma%20Spacenet.png">
 
 ## Wireframes
 
