@@ -1,5 +1,7 @@
 # Spacenet - INTRANET
 
+<img src="assets/SpacenetLogo.png" width="50%" alt="Logomarca">
+
 `Análise e Desenvolvimento de Sistemas`
 
 `PROJETO: Desenvolvimento de uma Aplicação Interativa`
