@@ -18,13 +18,9 @@ Demais informações como estas podem ser percebidas na imagem abaixo:
 
 ## Modelo ER (Projeto Conceitual)
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
+O diagrama a seguir representa a relação Entidades-Relacionamentos, onde é possível visualizar como as entidades se relacionam na intranet.
 
-Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
-
-A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+<img src = "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-spacenet/blob/2b3d6505a61d3abf69268b990eb425aae1702343/docs/img/Diagrama%20ER%20DBMS%20(nota%C3%A7%C3%A3o%20UML).jpg">
 
 ## Projeto da Base de Dados
 
