@@ -63,7 +63,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| O site precisa ter funcionalidade para autenticação de usuário   | ALTA |
 |RF-003| Na página principal serão exibidos os aniversariantes daquele determinado mês ou semana | ALTA |
 |RF-004| Haverá um portal de notícias relacionadas a empresa e aos colaboradores, atualizadas esporadicamente | ALTA |
-|RF-005| O site deve oferecer funcionalidade para abertura de chamadas de TI | ALTA |
+|RF-005| O site deve oferecer funcionalidade para abertura e acompanhamento do andamento de chamadas de TI | ALTA |
 |RF-006| Um quadro de avisos será exibido a cada funcionário, contendo informações sobre seu setor e da empresa | MÉDIA |
 |RF-007| O Suporte poderá visualizar chamadas pendentes e alterar o status para "atendida" ou "em andamento" | MÉDIA |
 
