@@ -1,6 +1,6 @@
 # Spacenet - INTRANET
 
-<img src="assets/SpacenetLogo.png" width="50%" alt="Logomarca">
+<img src="docs/img/SpacenetLogo.png" width="50%" alt="Logomarca">
 
 `Análise e Desenvolvimento de Sistemas`
 
