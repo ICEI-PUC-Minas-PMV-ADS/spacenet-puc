@@ -12,8 +12,6 @@ A consciência da totalidade do ser humano sabendo que sua saúde física mas ta
  
 Buscando maneiras de facilitar ou diminuir os ruídos existentes nas organizações, faz-se necessário o desenvolvimento de ferramentas que promovam essa integração entre as pessoas. Sempre levando em consideração a cultura organizacional, o ambiente em que estão inseridos, o perfil dos colaboradores e a linguagem utilizada por eles. Tendo em vista que o sucesso da ferramenta depende da compreensão de seu uso / absorção pelos usuários. 
 
-# Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
-
 ## Problema
 
 Faz-se necessária a criação de uma ferramenta que possa facilitar a comunicação de informações importantes, a integração e harmonia entre funcionários, e a rápida solução de problemas técnicos dentro da empresa.
