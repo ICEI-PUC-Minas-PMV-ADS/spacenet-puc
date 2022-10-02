@@ -7,7 +7,7 @@ Para que tenhamos uma boa produtividade no desenvolvimento do nosso software ire
 |------|-----------------------------------------|----|
 |Repositório de código fonte| GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-spacenet |
 |Documentos do  projeto| Google Drive |  |
-|Projeto de Interface e Wireframes | Figma | https://www.figma.com/file/FfyN8wjoLRWjl3gzZd7MJQ/Intranet?node-id=0%3A1 |
+|Projeto de Interface e Wireframes | Figma | https://www.figma.com/proto/FfyN8wjoLRWjl3gzZd7MJQ/Spacenet?node-id=606%3A40&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=606%3A40 |
 |Gerenciamento do Projeto | GitHub | 
 |Editor de Código | VSCode | Instalado na máquina local | 
 
