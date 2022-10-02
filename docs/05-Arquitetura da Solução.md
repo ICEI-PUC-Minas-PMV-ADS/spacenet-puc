@@ -18,15 +18,15 @@ Demais informações como estas podem ser percebidas na imagem abaixo:
 
 ## Modelo ER (Projeto Conceitual)
 
-O diagrama a seguir representa a relação Entidades-Relacionamentos, onde é possível visualizar como as entidades se relacionam na intranet.
+O Modelo de Entidades-Relacionamentos mostra como os atributos se relacionam com as entidades
 
-<img src = "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-spacenet/blob/2b3d6505a61d3abf69268b990eb425aae1702343/docs/img/Diagrama%20ER%20DBMS%20(nota%C3%A7%C3%A3o%20UML).jpg">
+
 
 ## Projeto da Base de Dados
 
-O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
+A seguir temos o Diagrama de Entidades-Relacionamento onde ilustra em forma de tabela os relacionamentos identificados no Modelo ER, com as chaves primárias.
  
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+<img src = "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-spacenet/blob/2b3d6505a61d3abf69268b990eb425aae1702343/docs/img/Diagrama%20ER%20DBMS%20(nota%C3%A7%C3%A3o%20UML).jpg">
 
 ## Tecnologias Utilizadas
 
