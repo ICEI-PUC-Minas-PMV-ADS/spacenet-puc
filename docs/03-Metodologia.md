@@ -44,12 +44,13 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+Divisão de Papéis
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+Para gerenciamento do projeto utilizaremos a metodologia ágil scrum.
+
+Nossa equipe se encontra organizada da seguinte maneira:
+
+Franciele Félix - Desenvolvedor Rafael Jordão – Design e Desenvolvedor Guilherme Bonfim - Product Owner e Desenvolvedor Gustavo Augusto - Desenvolvedor Guilherme Batista - Desenvolvedor Matheus Fernandes- Scrum Master e Desenvolvedor
 
 ### Processo
 
