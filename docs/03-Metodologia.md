@@ -1,6 +1,8 @@
 
 # Metodologia
 
+Para que tenhamos uma boa produtividade no desenvolvimento do nosso software iremos usar as seguintes ferramentas:
+
 |Ambiente   | Plataforma  | Link de Acesso |
 |------|-----------------------------------------|----|
 |Repositório de código fonte| GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-spacenet |
