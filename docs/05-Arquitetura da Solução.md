@@ -20,7 +20,7 @@ Demais informações como estas podem ser percebidas na imagem abaixo:
 
 O Modelo de Entidades-Relacionamentos mostra como os atributos se relacionam com as entidades
 
-<img src = https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-spacenet/blob/13a498788d1848f350ef781f9af69b9b2b492f8e/docs/img/Modelo%20ER%20-%20Spacenet.png>
+<img src = https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-spacenet/blob/e08b649bed5055ba46f5eab281fa2165f70b4e84/docs/img/Modelo_ER%20-%20Spacenet.png>
 
 ## Projeto da Base de Dados
 
