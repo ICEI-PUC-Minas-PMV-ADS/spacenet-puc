@@ -7,8 +7,7 @@ Os testes que serão realizados ao final do desenvolvimento da aplicação estã
 |	Requisito Associado 	| RF-001 - O site irá oferecer uma aba descrita “Institucional”, nela conterá sub abas categorizadas com informações de cada aplicação. |
 | Objetivo do Teste 	| Verificar se o menu de navegação (institucional) está exibindo as sub abas referente a cada página da aplicação. |
 | Passos 	| 1- Fazer login no site / 2- acessar a página inicial / 3- verificar o menu institucional|
-|Critério de Êxito |1- Deverá ser apresentado 4 submenus (Home, notícias, setores, ajuda e sair).
-2- Cada submenu deverá ter seu ícone próprio.|
+|Critério de Êxito |1- Deverá ser apresentado 4 submenus (Home, notícias, setores, ajuda e sair) /2- Cada submenu deverá ter seu ícone próprio.|
 |  	|  	|
 | **Caso de Teste** 	| **CT- 02 Acessar cada sub aba do menu Navegação**	|
 |Requisito Associado | RF01- O site irá oferecer uma aba descrita “Institucional”, nela conterá sub abas categorizadas com informações de cada aplicação. |
