@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiSpacenet", "apiSpacenet\apiSpacenet.csproj", "{A1CAD62A-44CA-46F3-8B4D-88819590870F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1CAD62A-44CA-46F3-8B4D-88819590870F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1CAD62A-44CA-46F3-8B4D-88819590870F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1CAD62A-44CA-46F3-8B4D-88819590870F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1CAD62A-44CA-46F3-8B4D-88819590870F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6F2891A-D9CB-4813-B5C6-15A7D0FEF0F8}
+	EndGlobalSection
+EndGlobal

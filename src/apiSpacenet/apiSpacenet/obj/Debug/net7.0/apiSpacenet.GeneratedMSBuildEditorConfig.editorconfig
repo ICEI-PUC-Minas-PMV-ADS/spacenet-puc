@@ -1,0 +1,16 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = apiSpacenet
+build_property.RootNamespace = apiSpacenet
+build_property.ProjectDir = /Users/rafaeljordao/Documents/dev/pmv-ads-2022-2-e2-proj-int-t5-spacenet/src/apiSpacenet/apiSpacenet/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/rafaeljordao/Documents/dev/pmv-ads-2022-2-e2-proj-int-t5-spacenet/src/apiSpacenet/apiSpacenet
+build_property._RazorSourceGeneratorDebug = 
