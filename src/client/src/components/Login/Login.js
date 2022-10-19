@@ -1,19 +1,13 @@
 import React from 'react'
-import Form from '../Form/Form'
-import styles from "./Login.module.css"
+import { Route, Routes } from 'react-router-dom';
+import LoginForm from './LoginForm';
 
 const Login = () => {
     return (
         <section>
-            <div className={styles.login}>
-                <div className={styles.backgroundTitle}>
-                    <h1 className={`animeLeftSlow ${styles.title}`}><span className={styles.span}>Seja bem-vindo </span><br />
-                        a Spacenet. </h1>
-                </div>
-                <div className='animeLeftSuperSlow'>
-                    <Form />
-                </div>
-            </div>
+            <Routes>
+                <Route path='/' element={<LoginForm />}/>
+            </Routes>
         </section>
     )
 }
