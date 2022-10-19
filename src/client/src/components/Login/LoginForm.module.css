@@ -1,3 +1,9 @@
+.container {
+    padding: 6rem 2rem 2rem 3rem;
+    width: 100%;
+    max-width: 500px;
+}
+
 .login {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -29,6 +35,18 @@
 .paragraph {
     padding: 1rem 1rem 1rem 0rem;
 }
+
+.forgot {
+    font-weight: 600;
+    text-decoration: underline;
+    color: var(--primary-blue);
+    
+}
+
+.forgotContainer {
+    padding-top: 2rem;
+}
+
 
 @media (max-width:1000px) {
     .login {

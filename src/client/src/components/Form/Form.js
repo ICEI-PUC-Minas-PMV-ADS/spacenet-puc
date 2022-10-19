@@ -25,9 +25,6 @@ const Form = () => {
                     onChange={({ target }) => setPassword(target.value)} />
                <Button>Entrar</Button>
             </form>
-            <div className={styles.forgotContainer}>
-                <a href='/' className={styles.forgot}>Esqueceu sua senha?</a>
-            </div>
         </div>
     )
 }

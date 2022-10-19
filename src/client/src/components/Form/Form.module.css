@@ -1,23 +1,8 @@
-.container {
-    padding: 6rem 2rem 2rem 3rem;
-    width: 100%;
-    max-width: 500px;
-}
+
 
 .h1 {
     padding-bottom: 1rem;
     color: var(--primary-blue);
-}
-
-.forgot {
-    font-weight: 600;
-    text-decoration: underline;
-    color: var(--primary-blue);
-    
-}
-
-.forgotContainer {
-    padding-top: 2rem;
 }
 
 
