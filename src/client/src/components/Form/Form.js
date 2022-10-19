@@ -23,7 +23,7 @@ const Form = () => {
                     name="password"
                     value={password}
                     onChange={({ target }) => setPassword(target.value)} />
-                <Button buttonText="Entrar" />
+               <Button>Entrar</Button>
             </form>
             <div className={styles.forgotContainer}>
                 <a href='/' className={styles.forgot}>Esqueceu sua senha?</a>
