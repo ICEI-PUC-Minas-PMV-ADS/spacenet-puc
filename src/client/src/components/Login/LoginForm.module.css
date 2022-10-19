@@ -40,7 +40,12 @@
     font-weight: 600;
     text-decoration: underline;
     color: var(--primary-blue);
-    
+    opacity: .7;
+    transition: .2s;
+}
+
+.forgot:hover {
+    opacity: 1;
 }
 
 .forgotContainer {
@@ -49,6 +54,10 @@
 
 
 @media (max-width:1000px) {
+    .container {
+        padding: 3rem 2rem 2rem 3rem;
+    }
+    
     .login {
         display: block;
         grid-template-columns: 1fr 1fr;

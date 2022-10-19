@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './Form.module.css'
-import Button from '../Buttons/Button'
 import Input from './Input'
 
 const Form = () => {
@@ -23,7 +22,6 @@ const Form = () => {
                     name="password"
                     value={password}
                     onChange={({ target }) => setPassword(target.value)} />
-               <Button>Entrar</Button>
             </form>
         </div>
     )

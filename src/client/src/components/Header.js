@@ -5,13 +5,14 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
     const [showNav, setShowNav] = React.useState(true);
+
+    const location = window.location.pathname
+    
     React.useEffect(() => {
-        let location = window.location.pathname
         if (location == '/login') {
             setShowNav(false);
-            console.log(showNav)
         }
-    }, [])
+    }, [location]);
 
     return (
         <header className={styles.header}>

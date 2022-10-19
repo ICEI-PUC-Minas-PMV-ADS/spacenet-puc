@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './LoginForm.module.css'
 import { Link} from 'react-router-dom';
 import Form from '../Form/Form'
+import Button from '../Buttons/Button';
 
 const LoginForm = () => {
     return (
@@ -15,8 +16,9 @@ const LoginForm = () => {
             <div className='animeLeftSuperSlow'>
                 <div className={styles.container}>
                     <Form />
+                    <Button>Entrar</Button>
                     <div className={styles.forgotContainer}>
-                        <Link to='/cadastro' className={styles.forgot}>Esqueceu sua senha?</Link>
+                        <Link to='/login/esqueceu' className={styles.forgot}>Esqueceu sua senha?</Link>
                     </div>
                 </div>
             </div>
