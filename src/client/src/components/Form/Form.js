@@ -4,6 +4,9 @@ import Button from '../Buttons/Button'
 import Input from './Input'
 
 const Form = () => {
+    const [email, setEmail] = React.useState('');
+    const [password, setPassword] = React.useState('');
+
     return (
         <div className={styles.container}>
             <form>
@@ -11,11 +14,15 @@ const Form = () => {
                 <Input
                     label='Usuário / E-mail'
                     type="text"
-                    name="username" />
+                    name="username"
+                    value={email}
+                    onChange={({ target }) => setEmail(target.value)} />
                 <Input
                     label='Senha'
                     type="password"
-                    name="password" />
+                    name="password"
+                    value={password}
+                    onChange={({ target }) => setPassword(target.value)} />
                 <Button buttonText="Entrar" />
             </form>
             <div className={styles.forgotContainer}>
