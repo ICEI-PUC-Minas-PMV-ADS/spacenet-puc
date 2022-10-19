@@ -2,14 +2,16 @@ import React from 'react';
 import Logo from '../assets/logo.svg'
 import styles from './Header.module.css'
 import { Link } from 'react-router-dom'
+import { UserContext } from '../UserContext';
 
 const Header = () => {
     const [showNav, setShowNav] = React.useState(true);
+    const location = window.location.pathname;
 
-    const location = window.location.pathname
-    
+    const context = React.useContext(UserContext);
+
     React.useEffect(() => {
-        if (location == '/login') {
+        if (location === '/login') {
             setShowNav(false);
         }
     }, [location]);
@@ -26,7 +28,7 @@ const Header = () => {
                         <Link to='/noticias'>Notícias</Link>
                         <Link to='/setores'>Setores</Link>
                         <Link to='/ajuda'>Ajuda</Link>
-                        <Link to='/login'>Sair</Link>
+                        <Link to='/login'>Sair / {context.usuario}</Link>
                     </ul>
                 </nav>
             ) : (

@@ -4,19 +4,21 @@ import Login from './components/Login/Login';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home/Home';
+import { UserStorage } from './UserContext'
 
 function App() {
 
-  
   return (
     <div className="App">
       <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path='login/*' element={<Login />}></Route>
-          <Route path='/' element={<Home />}></Route>
-        </Routes>
-        <Footer />
+        <UserStorage>
+          <Header />
+          <Routes>
+            <Route path='login/*' element={<Login />}></Route>
+            <Route path='/' element={<Home />}></Route>
+          </Routes>
+          <Footer />
+        </UserStorage>
       </BrowserRouter>
 
 
