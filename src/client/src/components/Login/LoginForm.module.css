@@ -53,6 +53,14 @@
 }
 
 
+
+.h1 {
+    padding-bottom: 1rem;
+    color: var(--primary-blue);
+}
+
+
+
 @media (max-width:1000px) {
     .container {
         padding: 3rem 2rem 2rem 3rem;
