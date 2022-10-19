@@ -14,7 +14,7 @@ const Problems = () => {
         <div className={styles.text}>
           <h1>Nos ajude a encontrar os problemas.</h1>
           <p>O nosso setor de TI está pronto para te atender.</p>
-          <ButtonWhite buttonText="RELATAR PROBLEMA" />
+          <ButtonWhite>RELATAR PROBLEMA</ButtonWhite>
         </div>
       </div>
 

@@ -9,7 +9,7 @@ const CompanySectors = () => {
             <div className={styles.text}>
                 <h1>Conheça nossos setores</h1>
                 <p>Quer saber um pouco mais sobre a nossa empresa? <strong>Confira as nossas áreas de atuação</strong></p>
-                <Button buttonText="VER MAIS" />
+                <Button>VER MAIS</Button>
             </div>
 
             <div className={styles.a}>

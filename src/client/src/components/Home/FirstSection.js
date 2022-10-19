@@ -10,7 +10,7 @@ const FirstSection = () => {
                 <p className={styles.paragraph}>Conheça a Spacenet.</p>
             </div>
             <div className='animeLeftSuperSlow'>
-                <ButtonWhite buttonText="VER MAIS" />
+                <ButtonWhite>VER MAIS</ButtonWhite>
             </div>
         </section>
     )
