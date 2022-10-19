@@ -8,7 +8,14 @@ const Form = () => {
         <div className={styles.container}>
             <form>
                 <h1 className={styles.h1}>Login</h1>
-                <Input />
+                <Input
+                    label='Usuário / E-mail'
+                    type="text"
+                    name="username" />
+                <Input
+                    label='Senha'
+                    type="password"
+                    name="password" />
                 <Button buttonText="Entrar" />
             </form>
             <div className={styles.forgotContainer}>
