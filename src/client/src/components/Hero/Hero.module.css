@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    background-color: var(--primary-blue);
+    align-items: center;
+    justify-content: space-around;
+    padding: 6rem;
+}
+
+.text {
+    color: var(--off-white);
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    max-width: 600px;
+  
+}
+
+.paragraph {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+    .container {
+        display: block;
+        padding: 2rem 1rem 2rem 2rem;
+    }
+
+    .text {
+        margin-bottom: 1rem;
+        max-width: 100%;
+    }
+}

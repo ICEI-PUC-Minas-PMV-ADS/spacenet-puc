@@ -5,7 +5,6 @@ import Input from '../Form/Input';
 import Button from '../Buttons/Button';
 import { USER_POST } from '../../api';
 
-
 const LoginCreate = () => {
     const [name, setName] = React.useState('')
     const [cpf, setCPF] = React.useState('')
