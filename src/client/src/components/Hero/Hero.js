@@ -12,4 +12,4 @@ const Hero = ({ title, subtitle }) => {
     )
 }
 
-export default Hero
+export default Hero;

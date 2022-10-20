@@ -1,0 +1,29 @@
+.div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 4rem 0rem 4rem 0rem;
+}
+
+.img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: .4rem;
+}
+
+.content {
+    padding: 0rem 5rem 0rem 2rem;
+}
+
+.content h1 {
+    color: var(--primary-blue);
+    padding-bottom: 1rem;
+}
+
+.content p {
+    width: 100%;
+    max-width: 500px;
+}

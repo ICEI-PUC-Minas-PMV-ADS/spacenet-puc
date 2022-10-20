@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './News.module.css'
 import SetaCarrosselEsquerda from '../../assets/seta_carrossel_esquerda.png'
 import SetaCarrosselDireita from '../../assets/seta_carrossel_direita.png'
-import Card from '../Card/Card'
+import Card from '../Cards/Card'
 
 const news = [
   {
