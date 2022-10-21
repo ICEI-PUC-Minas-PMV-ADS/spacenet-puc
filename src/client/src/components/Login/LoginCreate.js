@@ -33,10 +33,6 @@ const LoginCreate = () => {
         setPhone('');
     }
 
-    React.useEffect(() => {
-        
-    })
-
     return (
         <div className={styles.login}>
             <div className={styles.backgroundTitle}>

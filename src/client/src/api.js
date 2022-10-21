@@ -17,7 +17,7 @@ export const USERS_GET = () => {
     return {
         url: API_URL + 'Person',
         options: {
-            method: 'POST',
+            method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
             },
