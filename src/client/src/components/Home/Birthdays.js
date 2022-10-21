@@ -3,9 +3,9 @@ import styles from './Birthdays.module.css'
 import { USERS_GET } from '../../api'
 import useFetch from '../../Hooks/useFetch'
 
-
 const Birthdays = () => {
-    const {data, request, error} = useFetch();
+    const {data, request, error, loading} = useFetch();
+    
     React.useEffect(() => {
         const getBirthdays = async () => {
             const { url, options } = USERS_GET();
@@ -14,6 +14,7 @@ const Birthdays = () => {
         getBirthdays();
     }, [request])
 
+    if(loading) return <p>Carregando...</p>
     if(error) return <p>Temos um erro por aqui</p>
     if (data)
     return (
