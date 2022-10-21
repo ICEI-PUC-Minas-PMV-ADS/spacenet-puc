@@ -12,3 +12,15 @@ export const USER_POST = (body) => {
         }
     }
 }
+
+export const USERS_GET = () => {
+    return {
+        url: API_URL + 'Person',
+        options: {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+        }
+    }
+}

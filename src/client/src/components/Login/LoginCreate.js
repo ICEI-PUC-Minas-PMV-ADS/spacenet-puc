@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Input from '../Form/Input';
 import Button from '../Buttons/Button';
 import { USER_POST } from '../../api';
+import useFetch from '../../Hooks/useFetch';
 
 const LoginCreate = () => {
     const [name, setName] = React.useState('')
@@ -11,11 +12,11 @@ const LoginCreate = () => {
     const [phone, setPhone] = React.useState('')
     const [birthday, setBirthday] = React.useState('')
 
-    const [loading, setLoading] = React.useState(false)
+    const { loading, error, request } = useFetch();
 
     const UserPost = async (e) => {
         e.preventDefault()
-        setLoading(true)
+ 
         const { url, options } = USER_POST({
             name: name,
             document: document,
@@ -23,16 +24,18 @@ const LoginCreate = () => {
             birthdayDate: birthday,
         })
 
-        const request = await fetch(url, options)
-        const response = await request.json();
+        const { response } = await request(url, options);
         console.log(response)
-        setLoading(false)
 
         setBirthday('');
         setName('');
         setDocument('')
         setPhone('');
     }
+
+    React.useEffect(() => {
+        
+    })
 
     return (
         <div className={styles.login}>
@@ -74,6 +77,7 @@ const LoginCreate = () => {
                             onChange={({ target }) => setBirthday(target.value)}
                         />
                         {loading ? <Button disabled >Cadastrando...</Button> : <Button>Cadastrar</Button>}
+                        {error && <p>Ops! Algum erro aconteceu.</p>}
                     </form>
 
                     <div className={styles.forgotContainer}>

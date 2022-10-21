@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Birthdays.module.css'
-
+import { USERS_GET } from '../../api'
 
 const employees = [
     {
@@ -42,6 +42,12 @@ const employees = [
 ]
 
 const Birthdays = () => {
+    const [data, setData] = React.useState([]);
+
+    React.useEffect(() => {
+        
+    },[])
+    
     return (
         <div className={styles.mainContainer}>
             <h2 className={styles.title}>Aniversários do mês.</h2>
