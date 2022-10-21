@@ -12,11 +12,11 @@ const LoginCreate = () => {
     const [phone, setPhone] = React.useState('')
     const [birthday, setBirthday] = React.useState('')
 
-    const { loading, error, request } = useFetch();
+    const { loading, error, request, } = useFetch();
 
     const UserPost = async (e) => {
         e.preventDefault()
- 
+
         const { url, options } = USER_POST({
             name: name,
             document: document,
@@ -24,8 +24,7 @@ const LoginCreate = () => {
             birthdayDate: birthday,
         })
 
-        const { response } = await request(url, options);
-        console.log(response)
+        await request(url, options);
 
         setBirthday('');
         setName('');
@@ -73,7 +72,7 @@ const LoginCreate = () => {
                             onChange={({ target }) => setBirthday(target.value)}
                         />
                         {loading ? <Button disabled >Cadastrando...</Button> : <Button>Cadastrar</Button>}
-                        {error && <p>Ops! Algum erro aconteceu.</p>}
+                        {error && <p>Ops. Algum problema aconteceu.</p>}
                     </form>
 
                     <div className={styles.forgotContainer}>
