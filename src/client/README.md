@@ -4,7 +4,7 @@ Saiba mais acessando a documentaçao [Create React App](https://github.com/faceb
 
 ## Scripts de instalação
 
-Para que o projeto funcione localmente deve-se intestalar suas dependências. Os comandos abaixo definiram a maneira correta para se fazer isso.
+Para que o projeto funcione localmente deve-se instalar suas dependências. Os comandos abaixo definirão a maneira correta para se fazer isso.
 
 ### `npm install`
 
