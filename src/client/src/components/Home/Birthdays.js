@@ -1,23 +1,21 @@
 import React from 'react'
 import styles from './Birthdays.module.css'
 import { USERS_GET } from '../../api'
+import useFetch from '../../Hooks/useFetch'
 
 
 const Birthdays = () => {
-    const [data, setData] = React.useState([]);
-
+    const {data, request, error} = useFetch();
     React.useEffect(() => {
         const getBirthdays = async () => {
             const { url, options } = USERS_GET();
-            const request = await fetch(url, options);
-            const response = await request.json()
-            setData(response)
-            console.log(response)
+            await request(url, options);
         }
-
         getBirthdays();
-    }, [])
+    }, [request])
 
+    if(error) return <p>Temos um erro por aqui</p>
+    if (data)
     return (
         <div className={styles.mainContainer}>
             <h2 className={styles.title}>Aniversários do mês.</h2>
