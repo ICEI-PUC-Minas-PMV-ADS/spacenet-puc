@@ -14,3 +14,8 @@
 .button:hover {
     scale: 102%;
 }
+
+.button:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}

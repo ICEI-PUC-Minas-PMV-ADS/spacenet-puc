@@ -7,57 +7,32 @@ import { USER_POST } from '../../api';
 
 const LoginCreate = () => {
     const [name, setName] = React.useState('')
-    const [cpf, setCPF] = React.useState('')
-    const [address, setAddress] = React.useState('')
-    const [district, setDistrict] = React.useState('')
-    const [city, setCity] = React.useState('')
-    const [cep, setCEP] = React.useState('')
-    const [email, setEmail] = React.useState('');
-    const [password, setPassword] = React.useState('');
-    const [phone, setPhone] = React.useState('');
-    const [birthday, setBirthday] = React.useState('');
+    const [document, setDocument] = React.useState('')
+    const [phone, setPhone] = React.useState('')
+    const [birthday, setBirthday] = React.useState('')
+
+    const [loading, setLoading] = React.useState(false)
 
     const UserPost = async (e) => {
         e.preventDefault()
-        // const { url, options } = USER_POST({
-        //     name: name,
-        //     cpf_Cnpj: cpf,
-        //     addres: address,
-        //     city: city,
-        //     district: district,
-        //     cep: cep,
-        //     email: email,
-        //     password: password,
-        //     telephone: phone,
-        //     birth_Date: birthday
-        // })
+        setLoading(true)
+        const { url, options } = USER_POST({
+            name: name,
+            document: document,
+            phone: phone,
+            birthdayDate: birthday,
+        })
 
-        // const request = await fetch(url, options)
-        // const response = await request.json();
-        // console.log(response)
+        const request = await fetch(url, options)
+        const response = await request.json();
+        console.log(response)
+        setLoading(false)
 
-        console.log('clicou')
-
+        setBirthday('');
+        setName('');
+        setDocument('')
+        setPhone('');
     }
-
-    // React.useEffect(() => {
-    //     const getAPIData = async () => {
-    //         const request = await fetch('https://apispacenet.azurewebsites.net/',
-    //             {
-    //                 method: 'GET',
-    //                 mode: 'no-cors',
-    //                 headers: {
-    //                     'Content-Type': 'application/json'
-    //                 },
-
-    //             })
-    //         const response = await request.json();
-    //         console.log(response)
-    //     }
-
-    //     getAPIData()
-    // }, [])
-
 
     return (
         <div className={styles.login}>
@@ -68,7 +43,7 @@ const LoginCreate = () => {
 
             <div className='animeLeftSuperSlow'>
                 <div className={styles.container}>
-                    <h1 className={styles.h1}>Login</h1>
+                    <h1 className={styles.h1}>Cadastrar usuário</h1>
                     <form onSubmit={UserPost} >
                         <Input
                             label='Nome'
@@ -78,53 +53,12 @@ const LoginCreate = () => {
                             onChange={({ target }) => setName(target.value)}
                         />
                         <Input
-                            label='CPF no formato: xxxxxxxxxxx'
-                            type="text"
-                            name="cpf"
-                            value={cpf}
-                            onChange={({ target }) => setCPF(target.value)}
-                        />
-                        <Input
-                            label='Endereço'
-                            type="text"
-                            name="address"
-                            value={address}
-                            onChange={({ target }) => setAddress(target.value)}
-                        />
-                        <Input
-                            label='District'
+                            label='Document'
                             type="text"
                             name="district"
-                            value={district}
-                            onChange={({ target }) => setDistrict(target.value)}
+                            value={document}
+                            onChange={({ target }) => setDocument(target.value)}
                         />
-                        <Input
-                            label='Cidade'
-                            type="text"
-                            name="city"
-                            value={city}
-                            onChange={({ target }) => setCity(target.value)}
-                        />
-                        <Input
-                            label='CEP no formato: xxxxxxx'
-                            type="text"
-                            name="cep"
-                            value={cep}
-                            onChange={({ target }) => setCEP(target.value)}
-                        />
-                        <Input
-                            label='E-mail'
-                            type="text"
-                            name="username"
-                            value={email}
-                            onChange={({ target }) => setEmail(target.value)} />
-                        <Input
-                            label='Senha'
-                            type="password"
-                            name="password"
-                            value={password}
-                            onChange={({ target }) => setPassword(target.value)} />
-
                         <Input
                             label='Telefone'
                             type="text"
@@ -139,7 +73,7 @@ const LoginCreate = () => {
                             value={birthday}
                             onChange={({ target }) => setBirthday(target.value)}
                         />
-                        <Button>Criar usuário</Button>
+                        {loading ? <Button disabled >Cadastrando...</Button> : <Button>Cadastrar</Button>}
                     </form>
 
                     <div className={styles.forgotContainer}>

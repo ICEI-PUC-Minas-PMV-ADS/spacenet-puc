@@ -43,8 +43,8 @@ const Setores = () => {
                   text={sector.text}
                   src={sector.src}
                   alt={sector.alt}
-                  button={sector.button} 
-                  disabled={sector.disabled}/>
+                  button={sector.button}
+                  disabled={sector.disabled} />
               </li>
             )
           })}
