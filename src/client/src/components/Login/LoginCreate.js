@@ -5,6 +5,7 @@ import Input from '../Form/Input';
 import Button from '../Buttons/Button';
 import { USER_POST } from '../../api';
 import useFetch from '../../Hooks/useFetch';
+import Error from '../Helpers/Error';
 
 const LoginCreate = () => {
     const [name, setName] = React.useState('')
@@ -72,7 +73,7 @@ const LoginCreate = () => {
                             onChange={({ target }) => setBirthday(target.value)}
                         />
                         {loading ? <Button disabled >Cadastrando...</Button> : <Button>Cadastrar</Button>}
-                        {error && <p>Ops. Algum problema aconteceu.</p>}
+                        {error && <Error error={error} />}
                     </form>
 
                     <div className={styles.forgotContainer}>
