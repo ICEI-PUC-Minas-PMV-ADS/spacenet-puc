@@ -2,7 +2,7 @@ export const API_URL = 'https://apimysqlspacenet.azurewebsites.net/api/';
 
 export const USER_POST = (body) => {
     return {
-        url: API_URL + 'Peson',
+        url: API_URL + 'Person',
         options: {
             method: 'POST',
             headers: {
