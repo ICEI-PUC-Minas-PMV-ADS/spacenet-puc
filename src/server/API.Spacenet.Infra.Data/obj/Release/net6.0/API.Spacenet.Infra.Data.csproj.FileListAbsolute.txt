@@ -1,0 +1,15 @@
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Infra.Data\bin\Release\net6.0\API.Spacenet.Infra.Data.deps.json
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Infra.Data\bin\Release\net6.0\API.Spacenet.Infra.Data.dll
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Infra.Data\bin\Release\net6.0\API.Spacenet.Infra.Data.pdb
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Infra.Data\bin\Release\net6.0\API.Spacenet.Domain.dll
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Infra.Data\bin\Release\net6.0\API.Spacenet.Domain.pdb
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Infra.Data\obj\Release\net6.0\API.Spacenet.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Infra.Data\obj\Release\net6.0\API.Spacenet.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Infra.Data\obj\Release\net6.0\API.Spacenet.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Infra.Data\obj\Release\net6.0\API.Spacenet.Infra.Data.AssemblyInfo.cs
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Infra.Data\obj\Release\net6.0\API.Spacenet.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Infra.Data\obj\Release\net6.0\API.Spacenet.Infra.Data.csproj.CopyComplete
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Infra.Data\obj\Release\net6.0\API.Spacenet.Infra.Data.dll
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Infra.Data\obj\Release\net6.0\refint\API.Spacenet.Infra.Data.dll
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Infra.Data\obj\Release\net6.0\API.Spacenet.Infra.Data.pdb
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Infra.Data\obj\Release\net6.0\ref\API.Spacenet.Infra.Data.dll
