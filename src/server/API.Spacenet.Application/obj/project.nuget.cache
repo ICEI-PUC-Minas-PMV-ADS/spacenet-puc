@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "vtDkSCrX7rYy8GEez5xy1kZNwUmJnHWqbs3HDmPsJ4tOKqUjz3s3jK42+j98U1gKfaXhj9S3eKYf+vBUb9BiiA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gusta\\source\\repos\\API.Spacenet\\API.Spacenet.Application\\API.Spacenet.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gusta\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

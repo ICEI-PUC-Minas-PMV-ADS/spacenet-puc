@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Spacenet.Domain", "API.Spacenet.Domain\API.Spacenet.Domain.csproj", "{4F8880A1-326E-4B82-B637-683DCAF00EAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Spacenet.Infra.Data", "API.Spacenet.Infra.Data\API.Spacenet.Infra.Data.csproj", "{F98EDEEC-EFB0-4683-BF8C-BC96CDB79762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Spacenet.Application", "API.Spacenet.Application\API.Spacenet.Application.csproj", "{93EF48E3-5C09-46FD-BDA3-45B81576FDF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Spacenet.Infra.IoC", "API.Spacenet.Infra.IoC\API.Spacenet.Infra.IoC.csproj", "{25BC0843-33CA-4C3E-BF84-C3F52AA3EA7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Spacenet.API", "API.Spacenet.API\API.Spacenet.API.csproj", "{148D483E-E086-45F5-87A5-015637B3F439}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F8880A1-326E-4B82-B637-683DCAF00EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8880A1-326E-4B82-B637-683DCAF00EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8880A1-326E-4B82-B637-683DCAF00EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8880A1-326E-4B82-B637-683DCAF00EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F98EDEEC-EFB0-4683-BF8C-BC96CDB79762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98EDEEC-EFB0-4683-BF8C-BC96CDB79762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98EDEEC-EFB0-4683-BF8C-BC96CDB79762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98EDEEC-EFB0-4683-BF8C-BC96CDB79762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93EF48E3-5C09-46FD-BDA3-45B81576FDF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93EF48E3-5C09-46FD-BDA3-45B81576FDF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93EF48E3-5C09-46FD-BDA3-45B81576FDF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93EF48E3-5C09-46FD-BDA3-45B81576FDF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25BC0843-33CA-4C3E-BF84-C3F52AA3EA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25BC0843-33CA-4C3E-BF84-C3F52AA3EA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25BC0843-33CA-4C3E-BF84-C3F52AA3EA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25BC0843-33CA-4C3E-BF84-C3F52AA3EA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{148D483E-E086-45F5-87A5-015637B3F439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{148D483E-E086-45F5-87A5-015637B3F439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{148D483E-E086-45F5-87A5-015637B3F439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{148D483E-E086-45F5-87A5-015637B3F439}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02066D39-E1C9-4C48-B1A3-25A4E34EED4D}
+	EndGlobalSection
+EndGlobal
