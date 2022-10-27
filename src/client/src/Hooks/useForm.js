@@ -19,6 +19,7 @@ const useForm = (validation) => {
             return false;
         } else if (validations[validation] && validations[validation].regex.test(value)) {
             setError(validations[validation].message);
+            setValue('')
             return false;
         } else {
             setError(null);

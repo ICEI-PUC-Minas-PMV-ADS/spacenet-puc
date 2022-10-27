@@ -8,18 +8,14 @@ import Error from '../Helpers/Error';
 import Button from '../Buttons/Button';
 
 import useForm from '../../Hooks/useForm';
-import useFetch from '../../Hooks/useFetch';
 
 import { UserContext } from '../../UserContext';
-
 
 const LoginForm = () => {
     const email = useForm();
     const password = useForm();
+    const { userLogin, loading, error } = React.useContext(UserContext);
 
-    const { userLogin, loading } = React.useContext(UserContext);
-
-    const { error } = useFetch()
 
     const Login = async (e) => {
         e.preventDefault()

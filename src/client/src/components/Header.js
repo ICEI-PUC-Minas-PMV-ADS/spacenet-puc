@@ -7,7 +7,6 @@ import { UserContext } from '../UserContext';
 const Header = () => {
     const { user, userLogout } = React.useContext(UserContext);
     
-
     return (
         <header className={styles.header}>
             <div>

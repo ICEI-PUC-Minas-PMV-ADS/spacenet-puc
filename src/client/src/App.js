@@ -10,6 +10,8 @@ import SuportsIssues from './components/Supports/SuportsIssues';
 
 function App() {
 
+  
+
   return (
     <div className="App">
       <BrowserRouter>

@@ -5,7 +5,7 @@ const Error = ({error}) => {
     if (!error) return null
    
     return (
-        <p style={{color: '#f31', margin: '.3rem 0 1rem 0'}}>{error}</p>
+        <p style={{color: '#f31', margin: '.5rem 0 1rem 0'}}>{error}</p>
     )
 }
 
