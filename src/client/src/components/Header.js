@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <header className={styles.header}>
             <div>
-                <img src={Logo} />
+                <img alt='Logo' src={Logo} />
             </div>
             {user ?  (
                 <nav >

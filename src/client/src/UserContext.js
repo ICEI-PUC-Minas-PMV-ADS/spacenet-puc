@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { TOKEN_POST, USER_GET } from './api'
+import useFetch from "./Hooks/useFetch";
 
 
 //  "email": "usuario-teste@email.com"
@@ -14,7 +15,9 @@ export const UserStorage = ({ children }) => {
     const [login, setLogin] = React.useState(null);
     const [loading, setLoading] = React.useState(false);
     const [error, setError] = React.useState(null);
+    const {request} = useFetch()
     const navigate = useNavigate();
+
 
     const userLogout = () => {
         window.localStorage.clear();
@@ -31,10 +34,11 @@ export const UserStorage = ({ children }) => {
             password: password,
         })
 
-        const { json, response } = await fetch(url, options)
+        const { json, response } = await request(url, options)
         let token = json.access_Token
-
-        if (response) {
+        
+        if (response.ok) {
+            console.log(response)
             setError(false)
             setLogin(true)
             setUser(json.user)
@@ -42,7 +46,7 @@ export const UserStorage = ({ children }) => {
             navigate('/')
             setLoading(false)
         } else {
-            setError('Email ou login invlálidos')
+            setError('Email ou senha inválidos.')
             setLoading(false)
         }
     }
