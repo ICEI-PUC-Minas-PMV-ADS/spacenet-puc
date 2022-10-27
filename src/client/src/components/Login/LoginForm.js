@@ -1,31 +1,32 @@
 import React from 'react'
 import styles from './LoginForm.module.css'
+
 import { Link } from 'react-router-dom';
-import useFetch from '../../Hooks/useFetch';
+
 import Input from '../Form/Input';
 import Error from '../Helpers/Error';
 import Button from '../Buttons/Button';
-import { TOKEN_POST } from '../../api';
+
+import useForm from '../../Hooks/useForm';
+import useFetch from '../../Hooks/useFetch';
+
 import { UserContext } from '../../UserContext';
 
-const LoginForm = () => {
-    const [email, setEmail] = React.useState('');
-    const [password, setPassword] = React.useState('');
 
-    const { request, error, loading } = useFetch()
+const LoginForm = () => {
+    const email = useForm();
+    const password = useForm();
+
+    const { userLogin, loading } = React.useContext(UserContext);
+
+    const { error } = useFetch()
 
     const Login = async (e) => {
         e.preventDefault()
-        const { url, options } = TOKEN_POST({
-            
-        })
 
-        const { json, response } = await request(url, options);
-        console.log(json);
-        console.log(response)
-
-        setEmail('');
-        setPassword('');
+        if (email.validate() && password.validate()) {
+            userLogin(email.value, password.value);
+        }
     }
 
     return (
@@ -43,15 +44,15 @@ const LoginForm = () => {
                             label='Usuário / E-mail'
                             type="text"
                             name="username"
-                            value={email}
-                            onChange={({ target }) => setEmail(target.value)} />
+                            {...email}
+                        />
                         <Input
                             label='Senha'
                             type="password"
                             name="password"
-                            value={password}
-                            onChange={({ target }) => setPassword(target.value)} />
-                      {loading ? <Button disabled>Carregando...</Button> : <Button>Entrar</Button>}  
+                            {...password}
+                        />
+                        {loading ? <Button disabled>Carregando...</Button> : <Button>Entrar</Button>}
                         {error && <Error error={error} />}
                     </form>
                     <div className={styles.forgotContainer}>

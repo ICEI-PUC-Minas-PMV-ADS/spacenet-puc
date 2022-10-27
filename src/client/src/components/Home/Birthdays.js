@@ -17,16 +17,16 @@ const Birthdays = () => {
     //     })
     // }
 
-    const getBirthdays = async () => {
-        const { url, options } = USERS_GET();
-        const { json } = await request(url, options);
-        console.log(json)
+    // const getBirthdays = async () => {
+    //     const { url, options } = USERS_GET();
+    //     const { json } = await request(url, options);
+    //     console.log(json)
 
-        // filterByMonth()
-    }
-    React.useEffect(() => {
-        getBirthdays()
-    }, [])
+    //     // filterByMonth()
+    // }
+    // React.useEffect(() => {
+    //     getBirthdays()
+    // }, [])
 
     if (error) return <p>Temos um erro por aqui</p>
     if (data)

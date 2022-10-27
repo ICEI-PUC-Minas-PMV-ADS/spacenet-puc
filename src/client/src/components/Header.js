@@ -5,35 +5,26 @@ import { Link } from 'react-router-dom'
 import { UserContext } from '../UserContext';
 
 const Header = () => {
-    const [showNav, setShowNav] = React.useState(true);
-    const location = window.location.pathname;
-
-    const context = React.useContext(UserContext);
-
-    React.useEffect(() => {
-        if (location === '/login') {
-            setShowNav(false);
-        }
-    }, [location]);
+    const { user, userLogout } = React.useContext(UserContext);
+    
 
     return (
         <header className={styles.header}>
             <div>
                 <img src={Logo} />
             </div>
-            {showNav ? (
+            {user ?  (
                 <nav >
-                    <ul className={styles.ul}>
-                        <Link to='/'>Home</Link>
-                        <Link to='/noticias'>Notícias</Link>
-                        <Link to='/setores'>Setores</Link>
-                        <Link to='/ajuda'>Ajuda</Link>
-                        <Link to='/login'>Sair / {context.usuario}</Link>
-                    </ul>
-                </nav>
-            ) : (
-                null
-            )}
+                <ul className={styles.ul}>
+                    <Link to='/'>Home</Link>
+                    <Link to='/noticias'>Notícias</Link>
+                    <Link to='/setores'>Setores</Link>
+                    <Link to='/ajuda'>Ajuda</Link>
+                    <Link onClick={userLogout} to='/login'>Sair /{user && user} </Link>
+                </ul>
+            </nav>
+            ) : null}
+            
 
         </header>
     )
