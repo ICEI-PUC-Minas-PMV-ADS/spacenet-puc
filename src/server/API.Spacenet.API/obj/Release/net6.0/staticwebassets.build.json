@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6VQtuKBxtB4ILECxm+BRwvbVBZuBp2YC3BEALCLqSGQ=",
+  "Source": "API.Spacenet.API",
+  "BasePath": "_content/API.Spacenet.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
