@@ -8,10 +8,12 @@ import useFetch from '../../Hooks/useFetch';
 import Error from '../Helpers/Error';
 
 const LoginCreate = () => {
-    const [name, setName] = React.useState('')
-    const [document, setDocument] = React.useState('')
-    const [phone, setPhone] = React.useState('')
-    const [birthday, setBirthday] = React.useState('')
+    const [name, setName] = React.useState('');
+    const [document, setDocument] = React.useState('');
+    const [phone, setPhone] = React.useState('');
+    const [email, setEmail] = React.useState('');
+    const [password, setPassword] = React.useState('');
+    const [birthday, setBirthday] = React.useState('');
 
     const { loading, error, request, } = useFetch();
 
@@ -20,18 +22,22 @@ const LoginCreate = () => {
 
         const { url, options } = USER_POST({
             name: name,
+            email:email,
+            password: password,
             document: document,
             phone: phone,
             birthdayDate: birthday,
-        })
+        });
 
-        await request(url, options);
+        const {json, response} = await request(url, options);
+        console.log(json);
+        console.log(response)
 
         setBirthday('');
         setName('');
         setDocument('')
         setPhone('');
-    }
+    };
 
     return (
         <div className={styles.login}>
@@ -52,11 +58,25 @@ const LoginCreate = () => {
                             onChange={({ target }) => setName(target.value)}
                         />
                         <Input
-                            label='Document'
+                            label='Documento'
                             type="text"
                             name="district"
                             value={document}
                             onChange={({ target }) => setDocument(target.value)}
+                        />
+                        <Input
+                            label='Email'
+                            type="text"
+                            name="email"
+                            value={email}
+                            onChange={({ target }) => setEmail(target.value)}
+                        />
+                        <Input
+                            label='Passoword'
+                            type="password"
+                            name="password"
+                            value={password}
+                            onChange={({ target }) => setPassword(target.value)}
                         />
                         <Input
                             label='Telefone'
@@ -85,4 +105,4 @@ const LoginCreate = () => {
     )
 }
 
-export default LoginCreate
+export default LoginCreate;

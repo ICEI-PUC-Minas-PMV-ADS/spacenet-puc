@@ -7,31 +7,26 @@ import Loading from '../Helpers/Loading'
 
 const Birthdays = () => {
     const { data, request, error, loading } = useFetch();
+    const [formatDate, setFormatDate] = React.useState('');
 
-    const getBirthdays = React.useCallback(() => {
-        const getData = async () => {
-            const { url, options } = USERS_GET();
-            const { json } = await request(url, options);
+    // const filterByMonth = (array) => {
+    //     array.filter((date) => {
+    //         let dates = new Date(date)
+    //         let months = dates.getMonth()
+    //         console.log(months)
+    //     })
+    // }
 
-            return json;
-        }
-        getData()
-    }, [request])
+    const getBirthdays = async () => {
+        const { url, options } = USERS_GET();
+        const { json } = await request(url, options);
+        console.log(json)
 
+        // filterByMonth()
+    }
     React.useEffect(() => {
         getBirthdays()
-    }, [getBirthdays])
-
-    // const date = new Date()
-    // let newDate = date.getTime()
-
-
-
-    // let formatDate = dataAtualFormatada(newDate)
-
-    // const myArray = formatDate.split("", 10)
-
-    // console.log(myArray)
+    }, [])
 
     if (error) return <p>Temos um erro por aqui</p>
     if (data)
