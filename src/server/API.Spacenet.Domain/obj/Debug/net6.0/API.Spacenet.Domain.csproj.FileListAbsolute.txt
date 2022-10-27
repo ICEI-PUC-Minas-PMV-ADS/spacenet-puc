@@ -1,0 +1,12 @@
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Domain\bin\Debug\net6.0\API.Spacenet.Domain.deps.json
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Domain\bin\Debug\net6.0\API.Spacenet.Domain.dll
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Domain\bin\Debug\net6.0\API.Spacenet.Domain.pdb
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Domain\obj\Debug\net6.0\API.Spacenet.Domain.csproj.AssemblyReference.cache
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Domain\obj\Debug\net6.0\API.Spacenet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Domain\obj\Debug\net6.0\API.Spacenet.Domain.AssemblyInfoInputs.cache
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Domain\obj\Debug\net6.0\API.Spacenet.Domain.AssemblyInfo.cs
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Domain\obj\Debug\net6.0\API.Spacenet.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Domain\obj\Debug\net6.0\API.Spacenet.Domain.dll
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Domain\obj\Debug\net6.0\refint\API.Spacenet.Domain.dll
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Domain\obj\Debug\net6.0\API.Spacenet.Domain.pdb
+C:\Users\gusta\source\repos\API.Spacenet\API.Spacenet.Domain\obj\Debug\net6.0\ref\API.Spacenet.Domain.dll
