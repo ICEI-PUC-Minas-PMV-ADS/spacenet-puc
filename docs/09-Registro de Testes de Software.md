@@ -1,12 +1,35 @@
-# Registro de Testes de Software
+**Caso de Teste 03 - Verificar a autenticação de um usuário**
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+Nesse caso de teste será avaliado a autenticação do site. Na tela de login o usuário deve preencher os campos corretamente, se o usuário estiver cadastrado o mesmo deverá ser redirecionado para a tela inicial.
 
-Para cada caso de teste definido no Plano de Testes de Software, realize o registro das evidências dos testes feitos na aplicação pela equipe, que comprovem que o critério de êxito foi alcançado (ou não!!!). Para isso, utilize uma ferramenta de captura de tela que mostre cada um dos casos de teste definidos (obs.: cada caso de teste deverá possuir um vídeo do tipo _screencast_ para caracterizar uma evidência do referido caso).
+-Video 1-
 
-## Avaliação
+**Caso de Teste 04 - Verificar o comportamento da autenticação na tela de login do usuário que não está registrado no sistema**
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Nesse casp de teste será avaliado a autenticação do site para usuários que não estão registrados. Deverá aparecer uma mensagem de erro para usuários não cadastrados.
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+-Video 2-
+
+**Caso de Teste 01 - Visualizar o menu de Navegação**
+
+Na tela inicial, deverá ser apresentado abas categorizadas.
+
+-imagem-
+
+**Caso de Teste 02 - Acessar cada sub aba do menu Navegação**
+
+Ao clicar nas abas na tela inicial, deverá ser redirecionado para seus respectivos conteúdos.
+
+-video 3-
+
+**Caso de Teste 05 - Visualizar aniversariantes do mês**
+
+Na tela principal será apresentado os aniversariantes daquele respectivo mês.
+
+-imagem 2-
+
+**Caso de Teste 09 - Acessar os setores da empresa**
+
+Na tela principal haverá um botão que redireciona para os setores da empresa com informações de cada setor respectivamente.
+
+-video 4-
