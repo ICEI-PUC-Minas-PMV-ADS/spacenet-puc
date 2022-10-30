@@ -14,7 +14,7 @@ Nesse casp de teste será avaliado a autenticação do site para usuários que n
 
 Na tela inicial, deverá ser apresentado abas categorizadas.
 
--imagem-
+<img src = "https://github.com/ICEI-PUC-Minas-PMV-ADS/spacenet-puc/blob/69c104177adb50bd1ba7716864aa23b5a7911a6f/docs/img/caso%20de%20teste%2001.jpg">
 
 **Caso de Teste 02 - Acessar cada sub aba do menu Navegação**
 
@@ -26,7 +26,7 @@ Ao clicar nas abas na tela inicial, deverá ser redirecionado para seus respecti
 
 Na tela principal será apresentado os aniversariantes daquele respectivo mês.
 
--imagem 2-
+<img src = "https://github.com/ICEI-PUC-Minas-PMV-ADS/spacenet-puc/blob/69c104177adb50bd1ba7716864aa23b5a7911a6f/docs/img/caso%20de%20teste%2005.jpg">
 
 **Caso de Teste 09 - Acessar os setores da empresa**
 
