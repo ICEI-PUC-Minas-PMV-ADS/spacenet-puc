@@ -26,11 +26,12 @@ Uma Intranet que permite um acesso restrito e promove a integração dos process
 
 ## Instruções de utilização
 
+Desenvolvimento do Back-End: [API](https://apispacenet.azurewebsites.net/swagger/index.html)
+
 Acesse a página inicial pelo link:  [SpaceNet](https://spacenet-puc-minas.web.app/login). 
 
 Na página inicial da intranet realize seu login para acessar.
 
-Desenvolvimento do Back-End: [API](https://apispacenet.azurewebsites.net/swagger/index.html)
 
 Informe as credenciais de login de usuário teste (Login: usuario-teste@email.com / Senha: password).
 
