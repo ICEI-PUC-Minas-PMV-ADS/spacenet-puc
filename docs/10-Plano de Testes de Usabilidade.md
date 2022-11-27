@@ -13,7 +13,7 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 
 |   | Passo a Passo  |
 |---|----------------| 
-|   | 1) Serão selecionadas 5 pessoas para análise da aplicação.|
+|   | 1) Serão selecionadas 3 pessoas para análise da aplicação.|
 |   | 2) Será enviado para cada pessoa o link da nossa aplicação juntamente com o formulário onde encontram os pontos a serem analisados como descrito abaixo.|
 |   | 3) 1º desafio: cadastrar uma empresa na aplicação. |
 |   | 4) 2º desafio: cadastrar um usuário e fazer o login na aplicação. |
