@@ -8,8 +8,8 @@ A tabela a seguir apresenta os artefatos desenvolvidos de acordo com os requisit
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
-|RF-002| Emitir um relatório de tarefas no mês   | relatorio.shtml |
+|RF-001| O site irá oferecer uma aba descrita “Institucional”, nela conterá sub abas categorizadas com informações com informações gerais | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
+|RF-002| O site precisa ter funcionalidade para autenticação de usuário	   | relatorio.shtml |
 
 # Instruções de acesso
 
