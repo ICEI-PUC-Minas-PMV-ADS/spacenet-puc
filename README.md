@@ -32,6 +32,12 @@ Na página inicial da intranet realize seu login para acessar.
 
 Informe as credenciais de login de usuário teste (Login: usuario-teste@email.com / Senha: password).
 
+As credenciais serão validadas, a sessão será iniciada e o usuário será redirecionado para a página inicial do usuário.
+
+Caso prefira, pode fazer seu própio cadastro clicando no link Cadastre-se no cabeçalho.
+
+Ao clicar no link Cadastre-se, você será redirecionado para a página de Cadastro de Usuário.
+
 
 
 # Documentação
