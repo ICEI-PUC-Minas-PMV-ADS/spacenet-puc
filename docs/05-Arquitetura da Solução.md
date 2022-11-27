@@ -30,9 +30,14 @@ A seguir temos o Diagrama de Entidades-Relacionamento onde ilustra em forma de t
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+* IDE: Visual Studio 
+* Linguagens utilizadas no Front-end: Html, css, javascript
+* Framework Front-end: Bootstrap 
+* Linguagem utilizada no Back-end: C#
+* Framework para integração entre back-end e banco de dados: Entity Framework 
+* Banco de Dados: Microsoft SQL Server 
+* Servidor em nuvem para banco de dados:  Azure 
+* Versionamento: Git
 
 ## Hospedagem
 
