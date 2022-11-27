@@ -2,7 +2,7 @@ import React from 'react'
 import Error from '../Helpers/Error'
 import styles from '../Form/Input.module.css'
 
-const Input = ({ label, type, name, value, onChange, error, onBlur }) => {
+const Input = ({ label, type, name, value, onChange, error, onBlur, placeholder, autoComplete }) => {
     return (
         <div className={styles.wrapper}>
             <label className={styles.label} htmlFor={name}>{label}</label>
@@ -13,7 +13,9 @@ const Input = ({ label, type, name, value, onChange, error, onBlur }) => {
                 name={name}
                 onChange={onChange}
                 value={value}
-                onBlur={onBlur} />
+                onBlur={onBlur}
+                placeholder={placeholder}
+                autoComplete={autoComplete} />
 
             {error && <Error error={error}/>}
         </div>

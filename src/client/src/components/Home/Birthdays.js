@@ -3,44 +3,49 @@ import styles from './Birthdays.module.css'
 import { USERS_GET } from '../../api'
 import useFetch from '../../Hooks/useFetch'
 import Loading from '../Helpers/Loading'
+import Error from '../Helpers/Error'
+import Avatar from '../Helpers/Avatar'
 
 
 const Birthdays = () => {
-    const { data, request, error, loading } = useFetch();
-    const [formatDate, setFormatDate] = React.useState('');
+    const { request, loading } = useFetch();
+    const [data, setData] = React.useState([]);
 
-    // const filterByMonth = (array) => {
-    //     array.filter((date) => {
-    //         let dates = new Date(date)
-    //         let months = dates.getMonth()
-    //         console.log(months)
-    //     })
-    // }
+    React.useEffect(() => {
+        const getBirthdays = async () => {
+            const token = window.localStorage.getItem('token');
+            const { url, options } = USERS_GET(token);
+            const { json } = await request(url, options);
 
-    // const getBirthdays = async () => {
-    //     const { url, options } = USERS_GET();
-    //     const { json } = await request(url, options);
-    //     console.log(json)
+            let arrayData = json.data;
 
-    //     // filterByMonth()
-    // }
-    // React.useEffect(() => {
-    //     getBirthdays()
-    // }, [])
+            const actualMonth = new Date().getMonth();
 
-    if (error) return <p>Temos um erro por aqui</p>
-    if (data)
-        return (
-            <div className={styles.mainContainer}>
-                <h2 className={styles.title}>Aniversários do mês.</h2>
+            const result = arrayData.filter((month) => {
+                const months = new Date(month.birthdayDate).getMonth();
+
+                return months === actualMonth;
+            })
+
+            setData(result);
+        }
+        
+        getBirthdays();
+    }, [request]);
+
+    return (
+        <div className={styles.mainContainer}>
+            <h2 className={styles.title}>Aniversários do mês.</h2>
+            {data ? (
                 <div className={styles.container}>
                     <ul className={styles.ul}>
-                        {loading ? <Loading /> : (
+                        {loading ? <Loading style={{ height: '50px', width: '50px', marginTop: '4rem', marginBottom: '1rem' }} /> : (
                             data.map((funcionario) => {
+                                funcionario.birthdayDate = new Date().toLocaleString('pt-BR', {timeZone: 'UTC'})
                                 return (
                                     <li key={funcionario.id}>
                                         <div className={styles.employeesContainer}>
-                                            <img alt='avatar' className={styles.img} src={funcionario.src} />
+                                            <Avatar />
                                             <div className={styles.text}>
                                                 <h4>{funcionario.name}</h4>
                                                 <p>{funcionario.birthdayDate}</p>
@@ -52,8 +57,16 @@ const Birthdays = () => {
                         )}
                     </ul>
                 </div>
-            </div>
-        )
+            ) : (
+                <div style={{ textAlign: 'center' }}>
+                    <Loading style={{ height: '50px', width: '50px', marginTop: '4rem', marginBottom: '1rem' }} />
+                    <Error error="Ops... Encontramos um erro :(" />
+                </div>
+            )}
+
+        </div>
+    );
+
 }
 
-export default Birthdays
+export default Birthdays;

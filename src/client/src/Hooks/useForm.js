@@ -1,11 +1,25 @@
 import React from 'react'
 
+
 const validations = {
-    email: {
-        regex: /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+\.([a-z]+)?$/i
+    cpf: {
+        regex: /[0-9]{3}[.][0-9]{3}[.][0-9]{3}[-][0-9]{2}$/
         ,
-        message: "Preencha um email válido",
+        message: "Preencha um CPF no formato indicado: 000.000.000-00",
     },
+    email: {
+        regex: /(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/
+        ,
+        message: 'Preencha um e-mail válido.'
+    },
+
+    phone: {
+        regex: /^(?:(?:\+|00)?(55)\s?)?(?:\(?([1-9][0-9])\)?\s?)?(?:((?:9\d|[2-9])\d{3})\-?(\d{4}))$/
+        ,
+        message: 'Preencha um telefone válido.'
+    }
+
+
 }
 
 const useForm = (validation) => {
@@ -17,9 +31,8 @@ const useForm = (validation) => {
         if (value.length === 0) {
             setError('Preencha um valor.');
             return false;
-        } else if (validations[validation] && validations[validation].regex.test(value)) {
+        } else if (validations[validation] && validations[validation].regex.test(value) === false) {
             setError(validations[validation].message);
-            setValue('')
             return false;
         } else {
             setError(null);
@@ -28,7 +41,7 @@ const useForm = (validation) => {
     }
 
     const onChange = ({ target }) => {
-        if(error) validate(target.value)
+        if (error) validate(target.value)
         setValue(target.value)
     }
 

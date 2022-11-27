@@ -10,12 +10,12 @@ import Button from '../Buttons/Button';
 import useForm from '../../Hooks/useForm';
 
 import { UserContext } from '../../UserContext';
+import Loading from '../Helpers/Loading';
 
 const LoginForm = () => {
-    const email = useForm();
+    const email = useForm('email');
     const password = useForm();
-    const { userLogin, loading, error } = React.useContext(UserContext);
-
+    const { userLogin, loading, error} = React.useContext(UserContext);
 
     const Login = async (e) => {
         e.preventDefault()
@@ -36,26 +36,40 @@ const LoginForm = () => {
                 <div className={styles.container}>
                     <h1 className={styles.h1}>Login</h1>
                     <form onSubmit={Login}>
+
                         <Input
-                            label='Usuário / E-mail'
+                            label='E-mail'
                             type="text"
-                            name="username"
+                            name="e-mail"
+                            placeholder="usuario@email.com"
+                            autoComplete="email"
                             {...email}
                         />
                         <Input
                             label='Senha'
                             type="password"
-                            name="password"
+                            name="senha"
+                            placeholder="******"
+                            autoComplete="current-password"
                             {...password}
                         />
-                        {loading ? <Button disabled>Carregando...</Button> : <Button>Entrar</Button>}
+                        {loading ? <Button disabled><Loading style={{ height: '16px', width: '16px' }} /></Button> : <Button>Entrar</Button>}
                         {error && <Error error={error} />}
                     </form>
                     <div className={styles.forgotContainer}>
                         <Link to='/login/esqueceu' className={styles.forgot}>Esqueceu sua senha?</Link>
                     </div>
+
+                    <div className={styles.cadastro}>
+                        <h1 className={styles.h1}>Cadastre-se</h1>
+                        <p>Ainda não possui conta? Cadastre-se no site.</p>
+                        <Link to="/login/criar"><Button>Cadastro</Button></Link>
+                    </div>
                 </div>
+
             </div>
+
+
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../Hero/Hero'
 import CardSetores from '../Cards/CardSetores'
+import styles from './Setores.module.css'
 
 const fields = [
   {
@@ -34,10 +35,10 @@ const Setores = () => {
     <div>
       <Hero title="Conhecendo nossos setores" />
       <section>
-        <ul>
+        <ul className={styles.ul}>
           {fields.map((sector) => {
             return (
-              <li key={sector.id}>
+              <li className={styles.li} key={sector.id}>
                 <CardSetores
                   title={sector.title}
                   text={sector.text}
@@ -49,7 +50,6 @@ const Setores = () => {
             )
           })}
         </ul>
-
       </section>
     </div>
   )

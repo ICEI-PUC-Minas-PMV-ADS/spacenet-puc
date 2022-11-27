@@ -6,17 +6,11 @@ import Birthdays from './Birthdays'
 import CompanySectors from './CompanySectors'
 import Problems from './Problems'
 
-import { UserContext } from '../../UserContext'
-import { useNavigate } from 'react-router-dom'
 
-const Home = () => {
-    const navigate = useNavigate();
-    const { user } = React.useContext(UserContext);
 
-    React.useEffect(() => {
-        if(!user) navigate('/login')
-    }, [user, navigate])
-    
+const Home = () => {    
+
+
     return (
         <>
             <FirstSection />

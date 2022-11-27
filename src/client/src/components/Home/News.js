@@ -10,7 +10,8 @@ const news = [
     title: 'Notícia 1',
     src: 'https://images.unsplash.com/photo-1546422904-90eab23c3d7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80',
     alt: 'Thumbail da notícia',
-    paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis, tellu....'
+    paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis, tellu....',
+    date: '17-03-1997'
   },
   {
     id: '2',
@@ -28,14 +29,14 @@ const news = [
   },
   {
     id: '4',
-    title: 'Notícia 4',
+    title: 'Notícia 100',
     src: 'https://images.unsplash.com/photo-1546422904-90eab23c3d7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80',
     alt: 'Thumbail da notícia',
     paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis, tellu....'
   },
   {
     id: '5',
-    title: 'Notícia 5',
+    title: 'Notícia 200',
     src: 'https://images.unsplash.com/photo-1546422904-90eab23c3d7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80',
     alt: 'Thumbail da notícia',
     paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis, tellu....'
@@ -62,6 +63,10 @@ const NewsSection = () => {
     carousel.current.scrollLeft += carousel.current.offsetWidth;
   }
 
+  const handleOpenNews = (id) => {
+    alert(`abrir noticia com esse ID ${id}`)
+  }
+
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>Notícias</h2>
@@ -70,6 +75,9 @@ const NewsSection = () => {
           return (
             <li key={noticia.id}>
               <Card
+                onClick = {() => {
+                  handleOpenNews(noticia.id)
+                }}
                 alt={noticia.alt}
                 src={noticia.src}
                 title={noticia.title}

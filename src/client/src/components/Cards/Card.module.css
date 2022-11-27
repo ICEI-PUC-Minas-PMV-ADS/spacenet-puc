@@ -23,6 +23,13 @@
     max-width: 245px;
     border-radius: 0.5rem;
     min-width: 245px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0px 8px 15px rgb(0, 0, 0, .2);
+}
+
+.image:hover {
+    scale: 102%;
 }
 
 

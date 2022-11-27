@@ -9,6 +9,7 @@
     transition: 0.3s;
     box-shadow: 0px 4px 15px #00acb57b;
     font-weight: 600;
+    width: 100%;
 }
 
 .button:hover {
@@ -17,5 +18,5 @@
 
 .button:disabled {
     opacity: .5;
-    cursor: not-allowed;
+    cursor: progress;
 }

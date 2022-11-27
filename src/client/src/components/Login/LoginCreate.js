@@ -1,42 +1,45 @@
 import React from 'react'
 import styles from './LoginForm.module.css'
-import { Link } from 'react-router-dom';
+
 import Input from '../Form/Input';
 import Button from '../Buttons/Button';
-import { USER_POST } from '../../api';
-import useFetch from '../../Hooks/useFetch';
 import Error from '../Helpers/Error';
+import Loading from '../Helpers/Loading';
+import { UserContext } from '../../UserContext';
+
+import useForm from '../../Hooks/useForm'
 
 const LoginCreate = () => {
-    const [name, setName] = React.useState('');
-    const [document, setDocument] = React.useState('');
-    const [phone, setPhone] = React.useState('');
-    const [email, setEmail] = React.useState('');
-    const [password, setPassword] = React.useState('');
-    const [birthday, setBirthday] = React.useState('');
+    const name = useForm()
+    const document = useForm('cpf')
+    const phone = useForm('phone')
+    const email = useForm('email')
+    const password = useForm()
+    const birthday = useForm()
 
-    const { loading, error, request, } = useFetch();
+    const { loading, userPost, error } = React.useContext(UserContext)
 
     const UserPost = async (e) => {
         e.preventDefault()
 
-        const { url, options } = USER_POST({
-            name: name,
-            email:email,
-            password: password,
-            document: document,
-            phone: phone,
-            birthdayDate: birthday,
-        });
+        if (
+            name.validate()
+            && document.validate()
+            && phone.validate()
+            && email.validate()
+            && password.validate()
+            && birthday.validate()
+        ) {
+            userPost(
+                name.value,
+                email.value,
+                password.value,
+                document.value,
+                phone.value,
+                birthday.value
+            );
+        }
 
-        const {json, response} = await request(url, options);
-        console.log(json);
-        console.log(response)
-
-        setBirthday('');
-        setName('');
-        setDocument('')
-        setPhone('');
     };
 
     return (
@@ -54,51 +57,48 @@ const LoginCreate = () => {
                             label='Nome'
                             type="text"
                             name="name"
-                            value={name}
-                            onChange={({ target }) => setName(target.value)}
+                            placeholder="Insira seu nome"
+                            {...name}
                         />
                         <Input
-                            label='Documento'
+                            label='CPF / RG'
                             type="text"
-                            name="district"
-                            value={document}
-                            onChange={({ target }) => setDocument(target.value)}
+                            name="cpf / rg"
+                            placeholder="000.000.000-00"
+                            {...document}
                         />
                         <Input
                             label='Email'
                             type="text"
                             name="email"
-                            value={email}
-                            onChange={({ target }) => setEmail(target.value)}
+                            placeholder="usuário@email.com"
+                            {...email}
                         />
                         <Input
-                            label='Passoword'
+                            label='Senha'
                             type="password"
                             name="password"
-                            value={password}
-                            onChange={({ target }) => setPassword(target.value)}
+                            placeholder="******"
+                            {...password}
                         />
                         <Input
                             label='Telefone'
                             type="text"
                             name="telefone"
-                            value={phone}
-                            onChange={({ target }) => setPhone(target.value)}
+                            placeholder="(00) 00000-0000"
+                            {...phone}
                         />
                         <Input
                             label='Data de nascimento'
                             type="date"
                             name="nascimento"
-                            value={birthday}
-                            onChange={({ target }) => setBirthday(target.value)}
+                            placeholder="00/00/0000"
+                            {...birthday}
                         />
-                        {loading ? <Button disabled >Cadastrando...</Button> : <Button>Cadastrar</Button>}
+                        {loading ? <Button disabled ><Loading style={{ height: '16px', width: '16px' }} /></Button> : <Button>Cadastrar</Button>}
                         {error && <Error error={error} />}
                     </form>
 
-                    <div className={styles.forgotContainer}>
-                        <Link to='/login' className={styles.forgot}>Esqueceu sua senha?</Link>
-                    </div>
                 </div>
             </div>
         </div>

@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './Loading.module.css'
 
-const Loading = () => {
+const Loading = ({style}) => {
   return (
-    <div className={styles.spinner}></div>
+    <div style={style} className={styles.spinner}></div>
   )
 }
 

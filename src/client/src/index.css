@@ -9,10 +9,13 @@
 
 
 :root {
+  --soft-blue: #2d7377;
   --primary-blue: #00ADB5;
+
   --off-white: #eee;
   --black: rgb(19, 19, 19);
 }
+
 
 a {
   text-decoration: none;
@@ -23,18 +26,13 @@ li {
 }
 
 
-
-
 @media (max-width: 600px ) {
   html {
     font-size: 85%;
   }
 }
 
-
 /* --------------- Animations ----------------- */
-
-
 
 .animeLeftSlow {
   opacity: 0;
@@ -49,6 +47,7 @@ li {
   }
 
 }
+
 .animeLeftSuperSlow {
   opacity: 0;
   transform: translateX(-20px);

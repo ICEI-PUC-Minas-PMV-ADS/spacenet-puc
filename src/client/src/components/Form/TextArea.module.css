@@ -1,0 +1,19 @@
+.textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: none;
+    background-color: #eee;
+    border-radius: 0.4rem;
+    transition: .3s;
+    margin: .5rem 0rem 1rem 0rem ;
+}
+
+
+.textarea:hover,
+.textarea:focus {
+    outline: none;
+    border-color: var(--primary-blue);
+    background: white;
+    box-shadow: 0 0 0 3px var(--primary-blue);
+}

@@ -1,6 +1,10 @@
 .mainContainer {
-    padding-left: 5rem;
-    padding-top: 3rem;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .2);
+    height: 100%;
+    min-height: 350px;
+    margin-top: 5rem;
+    border-radius: .5rem;
+    background-color: rgb(239, 239, 239);
 }
 
 .container {
@@ -8,27 +12,24 @@
     scroll-behavior: smooth;
     overflow: auto;
     width: 300px;
-    border-radius: 0.5rem;
 }
 
 .title {
-    padding-bottom: 1rem;
-    width: 100%;
-    max-width: 150px;
+    text-align: center;
     color: var(--primary-blue);
+    margin-top: 1rem;
 }
 
 .img {
-  border-radius: 80%;
-  max-height: 50%;
-  width: 50px;
+    border-radius: 80%;
+    max-height: 50%;
+    width: 50px;
 }
 
 .employeesContainer {
     display: flex;
-    align-items: center;
-    padding: 0.5rem 0rem 1rem 0rem
-    
+    padding: 1rem;
+    margin-top: .5rem;
 }
 
 .text {
@@ -38,17 +39,19 @@
 
 @media (max-width:1300px) {
     .title {
-        max-width: 300px;
+
+        align-items: center;
     }
-   
+
     .mainContainer {
-        padding-left: 2rem;
+       padding: 1rem;
     }
-   
+
     .container {
         width: 100%;
+        max-width: 900px;
     }
-    
+
     .ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -66,9 +69,9 @@
     }
 
     .title {
-        padding-bottom: 2rem;
+        text-align: center;
     }
-    
+
     .ul {
         margin: 0 auto;
         display: block;
