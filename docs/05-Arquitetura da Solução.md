@@ -41,4 +41,4 @@ A seguir temos o Diagrama de Entidades-Relacionamento onde ilustra em forma de t
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+Hospedaremos o site em etapas posteriores através do serviço GitHubPages disponibilizado pelo Github.
