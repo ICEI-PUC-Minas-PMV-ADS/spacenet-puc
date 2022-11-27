@@ -13,16 +13,16 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 # Instruções de acesso
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+Acesse a página inicial pelo link:  [SpaceNet](https://spacenet-puc-minas.web.app/login). 
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
+Na página inicial da intranet realize seu login para acessar. Informe as credenciais de login de usuário teste (Login: usuario-teste@email.com / Senha: password).
 
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+As credenciais serão validadas, a sessão será iniciada e o usuário será redirecionado para a página inicial do usuário.
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+Caso prefira, pode fazer seu própio cadastro clicando no link Cadastre-se no cabeçalho.
+
+Ao clicar no link Cadastre-se, você será redirecionado para a página de Cadastro de Usuário.
+
+Após realizar Cadastro de Usuário, você será redirecionado para a página de Login.
+
+Informe as credenciais cadastradas. Elas serão validadas e a sessão será iniciada.
