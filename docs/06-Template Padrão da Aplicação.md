@@ -16,3 +16,7 @@ O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de
 <img src= https://github.com/ICEI-PUC-Minas-PMV-ADS/spacenet-puc/blob/126143de4ee52eab8a19632417c8d3b1cb83bdce/docs/img/template%20da%20aplicacao.png
      width="70%"/>
  </div>
+
+
+
+## Tela Página Inicial
