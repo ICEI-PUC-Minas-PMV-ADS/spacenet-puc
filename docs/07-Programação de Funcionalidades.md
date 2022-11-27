@@ -10,6 +10,9 @@ A tabela a seguir apresenta os artefatos desenvolvidos de acordo com os requisit
 |------|-----------------------------------------|----|
 |RF-001| O site irá oferecer uma aba descrita “Institucional”, nela conterá sub abas categorizadas com informações com informações gerais | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
 |RF-002| O site precisa ter funcionalidade para autenticação de usuário	   | relatorio.shtml |
+|RF-003| Na página principal serão exibidos os aniversariantes daquele determinado mês ou semana	   |  |
+|RF-004| Haverá um portal de notícias relacionadas a empresa e aos colaboradores, atualizadas esporadicamente |  |
+|RF-005| O site deve oferecer funcionalidade para abertura e acompanhamento do andamento de chamadas de TI	 |  |
 
 # Instruções de acesso
 
