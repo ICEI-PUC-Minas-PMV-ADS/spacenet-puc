@@ -15,7 +15,9 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 Acesse a página inicial pelo link:  [SpaceNet](https://spacenet-puc-minas.web.app/login). 
 
-Na página inicial da intranet realize seu login para acessar. Informe as credenciais de login de usuário teste (Login: usuario-teste@email.com / Senha: password).
+Na página inicial da intranet realize seu login para acessar. 
+
+Informe as credenciais de login de usuário teste (Login: usuario-teste@email.com / Senha: password).
 
 As credenciais serão validadas, a sessão será iniciada e o usuário será redirecionado para a página inicial do usuário.
 
