@@ -15,14 +15,11 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 |---|----------------| 
 |   | 1) Serão selecionadas 3 pessoas para análise da aplicação.|
 |   | 2) Será enviado para cada pessoa o link da nossa aplicação juntamente com o formulário onde encontram os pontos a serem analisados como descrito abaixo.|
-|   | 3) 1º desafio: cadastrar uma empresa na aplicação. |
-|   | 4) 2º desafio: cadastrar um usuário e fazer o login na aplicação. |
-|   | 5) 3º desafio: cadastrar um item do patrimônio da empresa (Ferramenta, Maquinário, Informática ou Veículo). |
-|   | 6) 4º desafio: visualizar as informações do item cadastrado.|
-|   | 7) 5º desafio: editar as informações do item cadastrado.| 
-|   | 8) 6º desafio: Gerar um relatório com todo o patrimônio da empresa.|
-|   | 9) 7º desafio: Buscar item cadastrado informações através de um filtro.|
-|   |10) 8º desafio: Recuperar senha cadastrada.|
+|   | 3) 1º desafio: cadastrar um usuário e fazer o login na aplicação. |
+|   | 4) 2º desafio: navegar pela aba de noticias  |
+|   | 5) 3º desafio: visualizar as informações de aniversariantes do mês.|
+|   | 6) 4º desafio: registrar um chamado para TI.| 
+|   | 7) 5º desafio: Recuperar senha cadastrada.|
 
 
 |   | Itens a serem avaliados pós teste |
