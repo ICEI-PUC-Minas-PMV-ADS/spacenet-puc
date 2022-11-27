@@ -28,9 +28,11 @@ Uma Intranet que permite um acesso restrito e promove a integração dos process
 
 Acesse a página inicial pelo link: https://spacenet-puc-minas.web.app/login 
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
+Na página inicial da intranet realize seu login para acessar.
 
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+Informe as credenciais de login de usuário teste (Login: usuario-teste@email.com / Senha: password).
+
+
 
 # Documentação
 
