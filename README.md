@@ -38,6 +38,10 @@ Caso prefira, pode fazer seu própio cadastro clicando no link Cadastre-se no ca
 
 Ao clicar no link Cadastre-se, você será redirecionado para a página de Cadastro de Usuário.
 
+Após realizar Cadastro de Usuário, você será redirecionado para a página de Login.
+
+Informe as credenciais cadastradas. Elas serão validadas e a sessão será iniciada.
+
 
 
 # Documentação
