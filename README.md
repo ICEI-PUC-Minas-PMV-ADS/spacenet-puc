@@ -30,6 +30,8 @@ Acesse a página inicial pelo link:  [SpaceNet](https://spacenet-puc-minas.web.a
 
 Na página inicial da intranet realize seu login para acessar.
 
+Desenvolvimento do Back-End: [API](https://apispacenet.azurewebsites.net/swagger/index.html)
+
 Informe as credenciais de login de usuário teste (Login: usuario-teste@email.com / Senha: password).
 
 As credenciais serão validadas, a sessão será iniciada e o usuário será redirecionado para a página inicial do usuário.
