@@ -44,19 +44,19 @@ Para esta etapa do projeto, os testes serão realizados nas principais funcional
 
 | Tarefa 2 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Fazer login no sistema | Concluir o cadastro com sucesso|-Concretização da tarefa<br>-Quantidade de erros cometidos<br>-Tempo necessário para se concluir|
+| Fazer login no sistema | Conseguir logar no sistema e ser encaminhado para a página|-Concretização da tarefa<br>-Quantidade de erros cometidos<br>-Tempo necessário para se concluir|
 
 | Tarefa 3 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Registrar um chamado para TI |  Conseguir logar no sistema e ser encaminhado para a página|-Concretização da tarefa<br>-Quantidade de erros cometidos<br>-Tempo necessário para se concluir|
+| Registrar um chamado para TI |  Realizar o cadastro de um chamado para TI|-Concretização da tarefa<br>-Quantidade de erros cometidos<br>-Tempo necessário para se concluir|
 
 | Tarefa 4    | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Acessar o painel de notícias | Concluir o cadastro|-Concretização da tarefa<br>-Quantidade de erros cometidos<br>-Tempo necessário para se concluir|
+| Acessar o painel de notícias | Ler as notícias no painel |-Concretização da tarefa<br>-Quantidade de erros cometidos<br>-Tempo necessário para se concluir|
 
 | Tarefa 5| Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Visualizar aniversariantes do mÊs| Clicar sobre o item cadastrado e abrir uma janela modal com as informações do cadastro.|-Concretização da tarefa<br>-Quantidade de erros cometidos<br>-Tempo necessario para se concluir|
+| Visualizar aniversariantes do mês| Visualizar os aniversáriantes do mês através da pagina inicial.|-Concretização da tarefa<br>-Quantidade de erros cometidos<br>-Tempo necessario para se concluir|
 
 
 ### Interpretação e Consolidação dos dados 
