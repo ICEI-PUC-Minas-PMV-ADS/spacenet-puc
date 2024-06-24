@@ -1,0 +1,26 @@
+message: Please cite this software using these metadata.
+title: Spacenet
+authors:
+  - family-names: Bonfim Lima
+    given-names: Guilherme
+  - family-names: Augusto Ferreira de Lira
+    given-names: Gustavo
+  - family-names: Fernandes
+    given-names: Matheus
+  - family-names: Batista
+    given-names: Guilherme
+  - family-names: Jordão
+    given-names: Rafael
+  - family-names: Félix
+    given-names: Franciele
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Jeunon De Alencar
+    given-names: Bernardo
+keywords:
+  - Gestão
+  - Intranet
+  - Relatório
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/spacenet-puc.git
+version: 1.0.0
+date-released: 2022-12-11
